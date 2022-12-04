@@ -1,0 +1,1807 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+		<!-- Адаптирование страницы для мобильных устройств -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+		<!-- Запрет распознования номера телефона -->
+		<meta name="format-detection" content="telephone=no">
+		<meta name="SKYPE_TOOLBAR" content ="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
+
+		<!-- Заголовок страницы -->
+		<title>Заголовок страницы</title>
+
+		<!-- Данное значение часто используют(использовали) поисковые системы -->
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+
+		<!-- Изменение цвета панели моб. браузера -->
+		<meta name="msapplication-TileColor" content="#2C69A3">
+		<meta name="theme-color" content="#2C69A3">
+
+		<!-- Подключение файлов стилей -->
+		<link rel="stylesheet" href="css/swiper-bundle.min.css" async>
+		<link rel="stylesheet" href="css/swiper.css" async>
+		<link rel="stylesheet" href="css/fancybox.css" async>
+		<link rel="stylesheet" href="css/styles.css" async>
+
+		<link rel="stylesheet" href="css/response_1279.css" media="print, (max-width: 1279px)" async>
+		<link rel="stylesheet" href="css/response_1023.css" media="print, (max-width: 1023px)" async>
+		<link rel="stylesheet" href="css/response_767.css" media="print, (max-width: 767px)" async>
+		<link rel="stylesheet" href="css/response_479.css" media="(max-width: 479px)" async>
+	</head>
+
+	<body>
+		<div class="wrap">
+			<div class="main">
+				<header>
+					<div class="info">
+						<div class="cont row">
+							<a href="/" class="logo">
+								<img src="images/logo.svg" alt="">
+							</a>
+
+							<div class="time">На связи с 9 до 21<br> ежедневно</div>
+
+							<div class="location modal_cont">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_location"></use></svg>
+
+								<button class="btn mini_modal_btn" data-modal-id="#location_modal">
+									<span>Москва</span>
+									<svg class="arr"><use xlink:href="images/sprite.svg#ic_arr_ver"></use></svg>
+								</button>
+
+								<div class="mini_modal" id="location_modal">
+									<div class="exp">Выберите город, в котором вы могли бы посетить клинику</div>
+
+									<div><button class="btn active">
+										<span>Москва</span>
+										<svg class="check"><use xlink:href="images/sprite.svg#ic_check"></use></svg>
+									</button></div>
+
+									<div><button class="btn">
+										<span>Санкт-Петербург</span>
+										<svg class="check"><use xlink:href="images/sprite.svg#ic_check"></use></svg>
+									</button></div>
+
+									<div><button class="btn">
+										<span>Екатеринбург</span>
+										<svg class="check"><use xlink:href="images/sprite.svg#ic_check"></use></svg>
+									</button></div>
+
+									<div><button class="btn">
+										<span>Пермь</span>
+										<svg class="check"><use xlink:href="images/sprite.svg#ic_check"></use></svg>
+									</button></div>
+								</div>
+
+								<div class="exp">Санкт-Петербург, Екатеринбург, Пермь</div>
+							</div>
+
+							<div class="mob_links">
+								<button class="location_btn">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_location"></use></svg>
+								</button>
+
+								<a href="tel:+71234567890" class="phone_link">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_phone"></use></svg>
+								</a>
+							</div>
+
+							<button class="order_btn modal_btn" data-modal="#order_modal">Записаться</button>
+
+							<div class="contacts">
+								<div>
+									<div class="phone">
+										<a href="tel:+71234567890">+7 (123) 456-78-90</a>
+									</div>
+
+									<button class="callback_btn modal_btn" data-modal="#callback_modal">Перезвоните мне</button>
+								</div>
+
+								<div class="messengers">
+									<a href="/" target="_blank" rel="noopener nofollow">
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_whatsapp"></use></svg>
+									</a>
+
+									<a href="/" target="_blank" rel="noopener nofollow">
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_telegram"></use></svg>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+
+					<div class="bottom">
+						<div class="cont row">
+							<nav class="menu row">
+								<div class="menu_item">
+									<a href="/" class="sub_link">
+										<span>Клиники</span>
+										<svg class="arr"><use xlink:href="images/sprite.svg#ic_arr_ver"></use></svg>
+									</a>
+
+									<div class="sub_menu">
+										<div><a href="/">Москва</a></div>
+										<div><a href="/">Санкт-Петербург</a></div>
+										<div><a href="/">Екатеринбург</a></div>
+										<div><a href="/">Пермь</a></div>
+									</div>
+								</div>
+
+								<div class="menu_item">
+									<a href="/">Врачи</a>
+								</div>
+
+								<div class="menu_item">
+									<a href="/" class="active">Услуги</a>
+								</div>
+
+								<div class="menu_item">
+									<a href="/">Цены</a>
+								</div>
+
+								<div class="menu_item">
+									<a href="/" class="sub_link">
+										<span>Владельцам</span>
+										<svg class="arr"><use xlink:href="images/sprite.svg#ic_arr_ver"></use></svg>
+									</a>
+
+									<div class="sub_menu">
+										<div><a href="/">Статьи</a></div>
+										<div><a href="/">Видео</a></div>
+										<div><a href="/">Онлайн консультация</a></div>
+										<div><a href="/">Вызов на дом</a></div>
+									</div>
+								</div>
+
+								<div class="menu_item">
+									<a href="/" class="sub_link">
+										<span>Специалистам</span>
+										<svg class="arr"><use xlink:href="images/sprite.svg#ic_arr_ver"></use></svg>
+									</a>
+
+									<div class="sub_menu">
+										<div><a href="/">Статьи</a></div>
+										<div><a href="/">Направление</a></div>
+										<div><a href="/">Консультация</a></div>
+										<div><a href="/">Стажировка</a></div>
+										<div><a href="/">Вакансии</a></div>
+										<div><a href="/">График обучения</a></div>
+									</div>
+								</div>
+
+								<div class="menu_item">
+									<a href="/">Отзывы</a>
+								</div>
+
+								<div class="menu_item">
+									<a href="/">Контакты</a>
+								</div>
+							</nav>
+
+							<div class="search modal_cont">
+								<button class="btn mini_modal_btn" data-modal-id="#search_modal">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_search"></use></svg>
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_close"></use></svg>
+								</button>
+
+								<div class="mini_modal" id="search_modal">
+									<form action="" class="form">
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_search"></use></svg>
+										<input type="text" name="" value="" class="input" placeholder="поиск">
+									</form>
+
+									<div class="tips">
+										<div class="data">
+											<!-- <div class="popular">
+												<div class="title">Популярное</div>
+
+												<div class="items">
+													<div><a href="/">
+														<span>Лечение катаракты у собак и кошек</span>
+														<svg class="icon"><use xlink:href="images/sprite.svg#ic_search"></use></svg>
+													</a></div>
+
+													<div><a href="/">
+														<span>Блефаропластика для собак и кошек</span>
+														<svg class="icon"><use xlink:href="images/sprite.svg#ic_search"></use></svg>
+													</a></div>
+
+													<div><a href="/">
+														<span>Удаление глаза у собак и кошек</span>
+														<svg class="icon"><use xlink:href="images/sprite.svg#ic_search"></use></svg>
+													</a></div>
+
+													<div><a href="/">
+														<span>Исследование фотохроматических рефлексов</span>
+														<svg class="icon"><use xlink:href="images/sprite.svg#ic_search"></use></svg>
+													</a></div>
+
+													<div><a href="/">
+														<span>Флюоресцеиновый тест</span>
+														<svg class="icon"><use xlink:href="images/sprite.svg#ic_search"></use></svg>
+													</a></div>
+												</div>
+											</div> -->
+
+											<div class="result">
+												<div class="btns">
+													<button class="btn active" data-filter="*">Все</button>
+													<button class="btn" data-filter=".filter_services">Услуги</button>
+													<button class="btn" data-filter=".filter_articles">Статьи</button>
+													<button class="btn" data-filter=".filter_doctors">Врачи</button>
+												</div>
+
+												<div class="section filter_services">
+													<div class="title">Услуги</div>
+
+													<div class="items">
+														<div><a href="/">
+															<div class="name">Лечение катаракты у собак и кошек</div>
+
+															<div class="desc">...удаётся избежать многих последствий данного заболевания (катаракта, ухудшение работы почек и др.). Однако следует настро...</div>
+
+															<svg class="arr"><use xlink:href="images/sprite.svg#ic_arr_hor"></use></svg>
+														</a></div>
+													</div>
+												</div>
+
+												<div class="section filter_articles">
+													<div class="title">Статьи</div>
+
+													<div class="items">
+														<div><a href="/">
+															<div class="name">Ветеринарная офтальмология</div>
+
+															<div class="desc">...удаётся избежать многих последствий данного заболевания (катаракта, ухудшение работы почек и др.). Однако следует настро...</div>
+
+															<svg class="arr"><use xlink:href="images/sprite.svg#ic_arr_hor"></use></svg>
+														</a></div>
+
+														<div><a href="/">
+															<div class="name">Сахарный диабет у собаки</div>
+
+															<div class="desc">...удаётся избежать многих последствий данного заболевания (катаракта, ухудшение работы почек и др.). Однако следует настро...</div>
+
+															<svg class="arr"><use xlink:href="images/sprite.svg#ic_arr_hor"></use></svg>
+														</a></div>
+													</div>
+												</div>
+
+												<div class="section filter_doctors">
+													<div class="title">Врачи</div>
+
+													<div class="items">
+														<div><a href="/">
+															<div class="name">Константиновский Александр Андреевич</div>
+
+															<div class="desc">...удаётся избежать многих последствий данного заболевания (катаракта, ухудшение работы почек и др.). Однако следует настро...</div>
+
+															<svg class="arr"><use xlink:href="images/sprite.svg#ic_arr_hor"></use></svg>
+														</a></div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</header>
+
+
+				<section class="page_head with_image block">
+					<div class="cont row">
+						<div class="data">
+							<div class="breadcrumbs">
+								<a href="/">Главная</a> <span class="sep">/</span>
+								<a href="/">Услуги</a> <span class="sep">/</span>
+								<span class="current">Лечение катаракты</span>
+							</div>
+
+							<h1 class="page_title">Лечение катаракты у собак и кошек</h1>
+						</div>
+
+						<button class="mob_order_btn modal_btn" data-modal="#order_modal">Записаться</button>
+
+						<form action="" class="order_form form">
+							<div class="title">Записаться на прием</div>
+
+							<div class="line">
+								<div class="label">Имя</div>
+
+								<div class="field">
+									<input type="text" name="" value="" class="input">
+								</div>
+							</div>
+
+							<div class="line">
+								<div class="label">Телефон</div>
+
+								<div class="field">
+									<input type="tel" name="" value="" class="input" placeholder="+7">
+								</div>
+							</div>
+
+							<div class="submit">
+								<button type="submit" class="submit_btn">Записаться</button>
+							</div>
+
+							<div class="agree">Отправляя форму, Вы даете согласие на обработку персональных данных</div>
+
+							<img data-src="images/action_block_img.png" alt="" class="img lazyload">
+						</form>
+					</div>
+
+					<img data-src="images/tmp/page_head_img5.jpg" alt="" class="bg lazyload">
+				</section>
+
+
+				<section class="only_method block">
+					<div class="cont">
+						<div class="data">
+							<div class="title">Единственным методом, позволяющим вернуть зрительные функции вашему питомцу, является удаление поврежденного хрусталика и установка на его место искусственного.</div>
+
+							<div class="row">
+								<div>
+									<div class="icon">
+										<img data-src="images/ic_only_method1.png" alt="" class="lazyload">
+									</div>
+
+									<div>
+										<div>Гарантия восстановления зрения у животных до 100% *</div>
+
+										<div class="exp">*при хирургическом лечении катаракты у животных</div>
+									</div>
+								</div>
+
+								<div>
+									<div class="icon">
+										<img data-src="images/ic_only_method2.png" alt="" class="lazyload">
+									</div>
+
+									<div>
+										<div>Ведущий врач – эксперт международного уровня, более 3600 успешно проведенных операций</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+
+				<section class="phacoemulsification block">
+					<div class="cont">
+						<div class="row">
+							<div class="text_block default">
+								<h2>Что такое факоэмульсификация</h2>
+
+								<p>Факоэмульсификация микрохирургическая операция, которая проводится через сверхмалый микропрокол в роговице. Сам хрусталик с помощью ультразвука разрушается до состояния эмульсии, извлекается, а на место удаленного хрусталика мы имплантируем искусственный. Это позволяет восстановить зрение питомца до первоначального.</p>
+							</div>
+
+							<div class="stats">
+								<div class="val">< 10%</div>
+
+								<div class="desc">Факоэмульсификация является очень эффективной операцией, а частота осложнений у кошек и собак обычно не превышает 10%</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+
+				<section class="photos block">
+					<div class="cont">
+						<div class="swiper">
+							<div class="swiper-wrapper">
+								<div class="swiper-slide">
+									<a href="images/tmp/photo_gallery_thumb1.jpg" class="item fancy_img" data-fancybox="photo_gallery">
+										<div class="thumb">
+											<img data-src="images/tmp/photo_gallery_thumb1.jpg" alt="" class="swiper-lazy">
+										</div>
+									</a>
+								</div>
+
+								<div class="swiper-slide">
+									<a href="images/tmp/photo_gallery_thumb2.jpg" class="item fancy_img" data-fancybox="photo_gallery">
+										<div class="thumb">
+											<img data-src="images/tmp/photo_gallery_thumb1.jpg" alt="" class="swiper-lazy">
+										</div>
+									</a>
+								</div>
+
+								<div class="swiper-slide">
+									<a href="images/tmp/photo_gallery_thumb1.jpg" class="item fancy_img" data-fancybox="photo_gallery">
+										<div class="thumb">
+											<img data-src="images/tmp/photo_gallery_thumb1.jpg" alt="" class="swiper-lazy">
+										</div>
+									</a>
+								</div>
+
+								<div class="swiper-slide">
+									<a href="images/tmp/photo_gallery_thumb1.jpg" class="item fancy_img" data-fancybox="photo_gallery">
+										<div class="thumb">
+											<img data-src="images/tmp/photo_gallery_thumb1.jpg" alt="" class="swiper-lazy">
+										</div>
+									</a>
+								</div>
+
+								<div class="swiper-slide">
+									<a href="images/tmp/photo_gallery_thumb1.jpg" class="item fancy_img" data-fancybox="photo_gallery">
+										<div class="thumb">
+											<img data-src="images/tmp/photo_gallery_thumb1.jpg" alt="" class="swiper-lazy">
+										</div>
+									</a>
+								</div>
+							</div>
+
+							<div class="swiper-button-prev">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_arr_hor"></use></svg>
+							</div>
+
+							<div class="swiper-button-next">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_arr_hor"></use></svg>
+							</div>
+						</div>
+					</div>
+				</section>
+
+
+				<section class="advantages block">
+					<div class="cont">
+						<div class="block_head">
+							<div class="title">Преимущества факоэмульсификации</div>
+						</div>
+
+						<div class="row">
+							<div class="item">
+								<div class="icon">
+									<img data-src="images/ic_why_we1.png" alt="" class="lazyload">
+								</div>
+
+								<div class="name">Малая травматичность</div>
+
+								<div class="desc">Операция проводится через микропрокол в роговице.</div>
+							</div>
+
+							<div class="item">
+								<div class="icon">
+									<img data-src="images/ic_why_we2.png" alt="" class="lazyload">
+								</div>
+
+								<div class="name">Высокие результаты</div>
+
+								<div class="desc">Зрение восстанавливается на 95-100%.</div>
+							</div>
+
+							<div class="item">
+								<div class="icon">
+									<img data-src="images/ic_why_we3.png" alt="" class="lazyload">
+								</div>
+
+								<div class="name">Быстрая реабилитация</div>
+
+								<div class="desc">Время пребывания питомца в стационаре клиники для проведения мониторинга не более 12 часов.</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+
+				<section class="cases block">
+					<div class="cont">
+						<div class="block_head">
+							<div class="title">Подарите своему питомцу радость видеть</div>
+						</div>
+
+						<div class="swiper">
+							<div class="swiper-wrapper">
+								<div class="swiper-slide">
+									<div class="case">
+										<div class="data">
+											<div class="title">Хаски, 1 год</div>
+
+											<div class="text_block default">
+												<p>Владелец собаки обратился в клинику с жалобами на помутнение глаз и неделю назад был блефароспазм слева, который пролечили противовоспалительными каплями. На приеме было диагностировано, что зрение отсутствует на левом глазу, а на правом значительно ослаблено. Причина потери зрения - набухающая катаракта, а его ухудшения - заднекортикальная.</p>
+
+												<p>Наиболее вероятная причина в данном случае - генетические факторы. В большинстве случаев генетически обусловленная катаракта у хаски резко развивается в возрасте одного года, вызывает сильное внутриглазное воспаление (факолитический увеит), который приводит к потери глаза из-за развития глаукомы. Не смотря на ряд осложнений - повышение внутриглазного давления, выпот фибрина, разрыв задней капсулы, операция прошла успешно и зрение восстановлено.</p>
+											</div>
+										</div>
+
+										<div class="images">
+											<a href="images/tmp/case_thumb.jpg" class="fancy_img" data-fancybox="case1">
+												<div class="thumb">
+													<img data-src="images/tmp/case_thumb.jpg" alt="" class="swiper-lazy">
+												</div>
+											</a>
+
+											<a href="images/tmp/case_thumb.jpg" class="fancy_img" data-fancybox="case1">
+												<div class="thumb">
+													<img data-src="images/tmp/case_thumb.jpg" alt="" class="swiper-lazy">
+												</div>
+											</a>
+										</div>
+									</div>
+								</div>
+
+								<div class="swiper-slide">
+									<div class="case">
+										<div class="data">
+											<div class="title">Хаски, 1 год</div>
+
+											<div class="text_block default">
+												<p>Владелец собаки обратился в клинику с жалобами на помутнение глаз и неделю назад был блефароспазм слева, который пролечили противовоспалительными каплями. На приеме было диагностировано, что зрение отсутствует на левом глазу, а на правом значительно ослаблено. Причина потери зрения - набухающая катаракта, а его ухудшения - заднекортикальная.</p>
+
+												<p>Наиболее вероятная причина в данном случае - генетические факторы. В большинстве случаев генетически обусловленная катаракта у хаски резко развивается в возрасте одного года, вызывает сильное внутриглазное воспаление (факолитический увеит), который приводит к потери глаза из-за развития глаукомы. Не смотря на ряд осложнений - повышение внутриглазного давления, выпот фибрина, разрыв задней капсулы, операция прошла успешно и зрение восстановлено.</p>
+											</div>
+										</div>
+
+										<div class="images">
+											<a href="images/tmp/case_thumb.jpg" class="fancy_img" data-fancybox="case2">
+												<div class="thumb">
+													<img data-src="images/tmp/case_thumb.jpg" alt="" class="swiper-lazy">
+												</div>
+											</a>
+
+											<a href="images/tmp/case_thumb.jpg" class="fancy_img" data-fancybox="case2">
+												<div class="thumb">
+													<img data-src="images/tmp/case_thumb.jpg" alt="" class="swiper-lazy">
+												</div>
+											</a>
+										</div>
+									</div>
+								</div>
+
+								<div class="swiper-slide">
+									<div class="case">
+										<div class="data">
+											<div class="title">Хаски, 1 год</div>
+
+											<div class="text_block default">
+												<p>Владелец собаки обратился в клинику с жалобами на помутнение глаз и неделю назад был блефароспазм слева, который пролечили противовоспалительными каплями. На приеме было диагностировано, что зрение отсутствует на левом глазу, а на правом значительно ослаблено. Причина потери зрения - набухающая катаракта, а его ухудшения - заднекортикальная.</p>
+
+												<p>Наиболее вероятная причина в данном случае - генетические факторы. В большинстве случаев генетически обусловленная катаракта у хаски резко развивается в возрасте одного года, вызывает сильное внутриглазное воспаление (факолитический увеит), который приводит к потери глаза из-за развития глаукомы. Не смотря на ряд осложнений - повышение внутриглазного давления, выпот фибрина, разрыв задней капсулы, операция прошла успешно и зрение восстановлено.</p>
+											</div>
+										</div>
+
+										<div class="images">
+											<a href="images/tmp/case_thumb.jpg" class="fancy_img" data-fancybox="case3">
+												<div class="thumb">
+													<img data-src="images/tmp/case_thumb.jpg" alt="" class="swiper-lazy">
+												</div>
+											</a>
+
+											<a href="images/tmp/case_thumb.jpg" class="fancy_img" data-fancybox="case3">
+												<div class="thumb">
+													<img data-src="images/tmp/case_thumb.jpg" alt="" class="swiper-lazy">
+												</div>
+											</a>
+										</div>
+									</div>
+								</div>
+
+								<div class="swiper-slide">
+									<div class="case">
+										<div class="data">
+											<div class="title">Хаски, 1 год</div>
+
+											<div class="text_block default">
+												<p>Владелец собаки обратился в клинику с жалобами на помутнение глаз и неделю назад был блефароспазм слева, который пролечили противовоспалительными каплями. На приеме было диагностировано, что зрение отсутствует на левом глазу, а на правом значительно ослаблено. Причина потери зрения - набухающая катаракта, а его ухудшения - заднекортикальная.</p>
+
+												<p>Наиболее вероятная причина в данном случае - генетические факторы. В большинстве случаев генетически обусловленная катаракта у хаски резко развивается в возрасте одного года, вызывает сильное внутриглазное воспаление (факолитический увеит), который приводит к потери глаза из-за развития глаукомы. Не смотря на ряд осложнений - повышение внутриглазного давления, выпот фибрина, разрыв задней капсулы, операция прошла успешно и зрение восстановлено.</p>
+											</div>
+										</div>
+
+										<div class="images">
+											<a href="images/tmp/case_thumb.jpg" class="fancy_img" data-fancybox="case4">
+												<div class="thumb">
+													<img data-src="images/tmp/case_thumb.jpg" alt="" class="swiper-lazy">
+												</div>
+											</a>
+
+											<a href="images/tmp/case_thumb.jpg" class="fancy_img" data-fancybox="case4">
+												<div class="thumb">
+													<img data-src="images/tmp/case_thumb.jpg" alt="" class="swiper-lazy">
+												</div>
+											</a>
+										</div>
+									</div>
+								</div>
+
+								<div class="swiper-slide">
+									<div class="case">
+										<div class="data">
+											<div class="title">Хаски, 1 год</div>
+
+											<div class="text_block default">
+												<p>Владелец собаки обратился в клинику с жалобами на помутнение глаз и неделю назад был блефароспазм слева, который пролечили противовоспалительными каплями. На приеме было диагностировано, что зрение отсутствует на левом глазу, а на правом значительно ослаблено. Причина потери зрения - набухающая катаракта, а его ухудшения - заднекортикальная.</p>
+
+												<p>Наиболее вероятная причина в данном случае - генетические факторы. В большинстве случаев генетически обусловленная катаракта у хаски резко развивается в возрасте одного года, вызывает сильное внутриглазное воспаление (факолитический увеит), который приводит к потери глаза из-за развития глаукомы. Не смотря на ряд осложнений - повышение внутриглазного давления, выпот фибрина, разрыв задней капсулы, операция прошла успешно и зрение восстановлено.</p>
+											</div>
+										</div>
+
+										<div class="images">
+											<a href="images/tmp/case_thumb.jpg" class="fancy_img" data-fancybox="case5">
+												<div class="thumb">
+													<img data-src="images/tmp/case_thumb.jpg" alt="" class="swiper-lazy">
+												</div>
+											</a>
+
+											<a href="images/tmp/case_thumb.jpg" class="fancy_img" data-fancybox="case5">
+												<div class="thumb">
+													<img data-src="images/tmp/case_thumb.jpg" alt="" class="swiper-lazy">
+												</div>
+											</a>
+										</div>
+									</div>
+								</div>
+
+								<div class="swiper-slide">
+									<div class="case">
+										<div class="data">
+											<div class="title">Хаски, 1 год</div>
+
+											<div class="text_block default">
+												<p>Владелец собаки обратился в клинику с жалобами на помутнение глаз и неделю назад был блефароспазм слева, который пролечили противовоспалительными каплями. На приеме было диагностировано, что зрение отсутствует на левом глазу, а на правом значительно ослаблено. Причина потери зрения - набухающая катаракта, а его ухудшения - заднекортикальная.</p>
+
+												<p>Наиболее вероятная причина в данном случае - генетические факторы. В большинстве случаев генетически обусловленная катаракта у хаски резко развивается в возрасте одного года, вызывает сильное внутриглазное воспаление (факолитический увеит), который приводит к потери глаза из-за развития глаукомы. Не смотря на ряд осложнений - повышение внутриглазного давления, выпот фибрина, разрыв задней капсулы, операция прошла успешно и зрение восстановлено.</p>
+											</div>
+										</div>
+
+										<div class="images">
+											<a href="images/tmp/case_thumb.jpg" class="fancy_img" data-fancybox="case6">
+												<div class="thumb">
+													<img data-src="images/tmp/case_thumb.jpg" alt="" class="swiper-lazy">
+												</div>
+											</a>
+
+											<a href="images/tmp/case_thumb.jpg" class="fancy_img" data-fancybox="case6">
+												<div class="thumb">
+													<img data-src="images/tmp/case_thumb.jpg" alt="" class="swiper-lazy">
+												</div>
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="swiper-button-prev">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_arr_hor"></use></svg>
+							</div>
+
+							<div class="swiper-button-next">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_arr_hor"></use></svg>
+							</div>
+
+							<div class="swiper-pagination"></div>
+						</div>
+					</div>
+				</section>
+
+
+				<section class="doctors block">
+					<div class="cont">
+						<div class="block_head">
+							<div class="title">Наши врачи</div>
+						</div>
+
+						<div class="swiper">
+							<div class="swiper-wrapper">
+								<div class="swiper-slide">
+									<div class="doctor">
+										<div class="photo">
+											<img data-src="images/tmp/doctor_photo.png" alt="" class="lazyload">
+										</div>
+
+										<div class="post">Должность</div>
+
+										<div class="name">Константиновский<br> Александр Андреевич</div>
+
+										<div class="link">
+											<a href="/">
+												<span>Далее</span>
+												<svg class="icon"><use xlink:href="images/sprite.svg#ic_arr_hor"></use></svg>
+											</a>
+										</div>
+									</div>
+								</div>
+
+								<div class="swiper-slide">
+									<div class="doctor">
+										<div class="photo">
+											<img data-src="images/tmp/doctor_photo.png" alt="" class="lazyload">
+										</div>
+
+										<div class="post">Должность</div>
+
+										<div class="name">Константиновский<br> Александр Андреевич</div>
+
+										<div class="link">
+											<a href="/">
+												<span>Далее</span>
+												<svg class="icon"><use xlink:href="images/sprite.svg#ic_arr_hor"></use></svg>
+											</a>
+										</div>
+									</div>
+								</div>
+
+								<div class="swiper-slide">
+									<div class="doctor">
+										<div class="photo">
+											<img data-src="images/tmp/doctor_photo.png" alt="" class="lazyload">
+										</div>
+
+										<div class="post">Должность</div>
+
+										<div class="name">Константиновский<br> Александр Андреевич</div>
+
+										<div class="link">
+											<a href="/">
+												<span>Далее</span>
+												<svg class="icon"><use xlink:href="images/sprite.svg#ic_arr_hor"></use></svg>
+											</a>
+										</div>
+									</div>
+								</div>
+
+								<div class="swiper-slide">
+									<div class="doctor">
+										<div class="photo">
+											<img data-src="images/tmp/doctor_photo.png" alt="" class="lazyload">
+										</div>
+
+										<div class="post">Должность</div>
+
+										<div class="name">Константиновский<br> Александр Андреевич</div>
+
+										<div class="link">
+											<a href="/">
+												<span>Далее</span>
+												<svg class="icon"><use xlink:href="images/sprite.svg#ic_arr_hor"></use></svg>
+											</a>
+										</div>
+									</div>
+								</div>
+
+								<div class="swiper-slide">
+									<div class="doctor">
+										<div class="photo">
+											<img data-src="images/tmp/doctor_photo.png" alt="" class="lazyload">
+										</div>
+
+										<div class="post">Должность</div>
+
+										<div class="name">Константиновский<br> Александр Андреевич</div>
+
+										<div class="link">
+											<a href="/">
+												<span>Далее</span>
+												<svg class="icon"><use xlink:href="images/sprite.svg#ic_arr_hor"></use></svg>
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="swiper-button-prev">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_arr_hor"></use></svg>
+							</div>
+
+							<div class="swiper-button-next">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_arr_hor"></use></svg>
+							</div>
+						</div>
+					</div>
+				</section>
+
+
+				<section class="action_block block">
+					<div class="cont">
+						<div class="data">
+							<div class="title">Не теряйте время, запишитесь к врачу!</div>
+
+							<div class="desc">При отсутствии должного и своевременного лечения глазное заболевание может привести к полной потере зрения</div>
+
+							<button class="btn modal_btn" data-modal="#order_modal">Записаться на прием</button>
+
+							<img data-src="images/action_block_img.png" alt="" class="img lazyload">
+						</div>
+					</div>
+				</section>
+
+
+				<section class="steps block">
+					<div class="cont">
+						<div class="block_head">
+							<div class="title">Как проходит прием</div>
+
+							<div class="duration">Длительность приёма около 40-60 минут</div>
+						</div>
+
+						<div class="items">
+							<div class="item">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_time"></use></svg>
+
+								<div>
+									<div class="name">Начинается приём со сбора анамнеза</div>
+
+									<div class="desc text_block default mini">
+										<p>Доктор задаст вопросы об основных жалобах на состояние глаз, обязательно спросит про общее самочувствие питомца. Если Ваш любимец уже имеет другие не офтальмологические заболевания, и получает лечение, то лучше иметь при себе его историю болезни. Если уже начали применять лечение для глаз, то важно помнить название применяемых препаратов.<br> Также полезно взять с собой вет. паспорт питомца: в нём указаны данные о вакцинации. Мало кто помнит их наизусть.</p>
+									</div>
+								</div>
+							</div>
+
+							<div class="item">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_time"></use></svg>
+
+								<div>
+									<div class="name">«Осмотр без рук»</div>
+
+									<div class="desc text_block default mini">
+										<p>Доктор оценит, насколько хорошо питомец ориентируется в незнакомой обстановке. Для этого выставляют "тест Лабиринт" из предметов разной формы и размера, затем предлагают собаке пройти от одного конца кабинета до другого, где его будете ждать вы – любимый хозяин. Тест сначала проводят при дневном свете, затем в затемнённом кабинете.</p>
+									</div>
+								</div>
+							</div>
+
+							<div class="item">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_time"></use></svg>
+
+								<div>
+									<div class="name">Оценка рефлексов</div>
+
+									<div class="desc text_block default mini">
+										<p>Чувствительность век (доктор легко касается пальцами кожи век), реакция на приближающийся предмет "рефлекс угрозы".</p>
+									</div>
+								</div>
+							</div>
+
+							<div class="item">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_time"></use></svg>
+
+								<div>
+									<div class="name">Измерение уровня слезопродукции «тест Ширмера»</div>
+
+									<div class="desc text_block default mini">
+										<p>Под нижнее веко помещают специальную тест-полоску на 1 минуту.</p>
+									</div>
+								</div>
+							</div>
+
+							<div class="item">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_time"></use></svg>
+
+								<div>
+									<div class="name">Реакция на ослепление «DAZZLE»</div>
+
+									<div class="desc text_block default mini">
+										<p>Зрачковые реакции на свет: белый, красный, синий определённой длины волны.</p>
+									</div>
+								</div>
+							</div>
+
+							<div class="item">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_time"></use></svg>
+
+								<div>
+									<div class="name">Биомикроскопия</div>
+
+									<div class="desc text_block default mini">
+										<p>Осмотр глаз при помощи специального микроскопа с осветителем – щелевой лампы.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+
+				<section class="action_block block">
+					<div class="cont">
+						<div class="data">
+							<div class="title">Задайте вопрос</div>
+
+							<div class="desc">Врач ответит на вопросы, даст профессиональные советы, подскажет, какие меры вы сможете предпринять и насколько срочно необходимо обратиться к нам</div>
+
+							<button class="btn modal_btn" data-modal="#question_modal">Задать вопрос</button>
+
+							<img data-src="images/action_block_img2.png" alt="" class="img left lazyload">
+						</div>
+					</div>
+				</section>
+
+
+				<section class="prices_info block">
+					<div class="cont">
+						<div class="block_head">
+							<div class="title">Цены на услуги офтальмологии</div>
+						</div>
+
+						<div class="table_wrap">
+							<table>
+								<thead>
+									<tr>
+										<th>Название услуги</th>
+										<th>Цена</th>
+									</tr>
+								</thead>
+
+								<tbody>
+									<tr>
+										<td>Блефаропластика у собак и кошек</td>
+										<td>900 р.</td>
+									</tr>
+
+									<tr>
+										<td>Исследование фотохроматических рефлексов</td>
+										<td>900 р.</td>
+									</tr>
+
+									<tr>
+										<td>Кератотомия</td>
+										<td>900 р.</td>
+									</tr>
+
+									<tr>
+										<td>Электроретинография (ЭРГ)</td>
+										<td>900 р.</td>
+									</tr>
+
+									<tr>
+										<td>Механическое вправление слёзной железы третьего века</td>
+										<td>900 р.</td>
+									</tr>
+
+									<tr>
+										<td>Измерение слезопродукции</td>
+										<td>900 р.</td>
+									</tr>
+
+									<tr>
+										<td>Офтальмотонометрия</td>
+										<td>900 р.</td>
+									</tr>
+
+									<tr>
+										<td>Офтальмоскопия</td>
+										<td>900 р.</td>
+									</tr>
+
+									<tr>
+										<td>Проба Зейделя</td>
+										<td>900 р.</td>
+									</tr>
+
+									<tr>
+										<td>Гониоскопия</td>
+										<td>900 р.</td>
+									</tr>
+
+									<tr>
+										<td>Биомикроскопия</td>
+										<td>900 р.</td>
+									</tr>
+
+									<tr>
+										<td>Флюоресцеиновый тест</td>
+										<td>900 р.</td>
+									</tr>
+
+									<tr>
+										<td>УЗИ глаза</td>
+										<td>900 р.</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+
+						<div class="exp">* Цены указаны без учета стоимости препаратов и расходных материалов (если не указано иное)</div>
+					</div>
+				</section>
+
+
+				<section class="reviews block">
+					<div class="cont">
+						<div class="block_head">
+							<div class="title">Отзывы</div>
+						</div>
+
+						<div class="swiper">
+							<div class="swiper-wrapper">
+								<div class="swiper-slide">
+									<div class="review">
+										<div class="text">Прекрасная клиника! У нашей 20-месячной керри-блю-терьера вдруг резко покатилось зрение... Сначала ‚ мы этого не могли понять ‚ до тех пор, пока она не стала натыкаться на столбы и деревья! Собака стала вялой ‚ потеряла интерес к играм и жизни. Потом знакомая случайно взглянула на ее зрачки и определила катаракту., т.к. зрачки побелели. На приеме в Рекоме это подтвердили и назначили операцию через месяц, 14 мая.... При осмотре врачом Константиновским были даны очень осторожные прогнозы, за 1 глаз он ручался ‚ а2й был под большим вопросом ‚ так как начала отслаиваться сетчатка. Тем не менее, когда я забирал собаку Александр Андреевич сказал‚ что все прошло прекрасно ‚ он поставил в оба зрачка французские линзы и линзы и прогноз хороший! Хочу отдельно отметить очень внимательное обследование и отношение к собаке персонала клиники‚ В частности Анны Германовны и Александра Андреевича! Эти врачи работают по призванию‚ с душой‚ а не просто за деньги!</div>
+
+										<div class="info">
+											<div class="name">Имя Фамилия</div>
+
+											<div class="row">
+												<div class="date">1 мая 2022</div>
+												<div class="location">Москва</div>
+											</div>
+										</div>
+
+										<div class="stars">
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_star"></use></svg>
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_star"></use></svg>
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_star"></use></svg>
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_star"></use></svg>
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_star"></use></svg>
+										</div>
+									</div>
+								</div>
+
+								<div class="swiper-slide">
+									<div class="review">
+										<div class="text">Прекрасная клиника! У нашей 20-месячной керри-блю-терьера вдруг резко покатилось зрение... Сначала ‚ мы этого не могли понять ‚ до тех пор, пока она не стала натыкаться на столбы и деревья! Собака стала вялой ‚ потеряла интерес к играм и жизни. Потом знакомая случайно взглянула на ее зрачки и определила катаракту., т.к. зрачки побелели. На приеме в Рекоме это подтвердили и назначили операцию через месяц, 14 мая.... При осмотре врачом Константиновским были даны очень осторожные прогнозы, за 1 глаз он ручался ‚ а2й был под большим вопросом ‚ так как начала отслаиваться сетчатка. Тем не менее, когда я забирал собаку Александр Андреевич сказал‚ что все прошло прекрасно ‚ он поставил в оба зрачка французские линзы и линзы и прогноз хороший! Хочу отдельно отметить очень внимательное обследование и отношение к собаке персонала клиники‚ В частности Анны Германовны и Александра Андреевича! Эти врачи работают по призванию‚ с душой‚ а не просто за деньги!</div>
+
+										<div class="info">
+											<div class="name">Имя Фамилия</div>
+
+											<div class="row">
+												<div class="date">1 мая 2022</div>
+												<div class="location">Москва</div>
+											</div>
+										</div>
+
+										<div class="stars">
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_star"></use></svg>
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_star"></use></svg>
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_star"></use></svg>
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_star"></use></svg>
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_star"></use></svg>
+										</div>
+									</div>
+								</div>
+
+								<div class="swiper-slide">
+									<div class="review">
+										<div class="text">Прекрасная клиника! У нашей 20-месячной керри-блю-терьера вдруг резко покатилось зрение... Сначала ‚ мы этого не могли понять ‚ до тех пор, пока она не стала натыкаться на столбы и деревья! Собака стала вялой ‚ потеряла интерес к играм и жизни. Потом знакомая случайно взглянула на ее зрачки и определила катаракту., т.к. зрачки побелели. На приеме в Рекоме это подтвердили и назначили операцию через месяц, 14 мая.... При осмотре врачом Константиновским были даны очень осторожные прогнозы, за 1 глаз он ручался ‚ а2й был под большим вопросом ‚ так как начала отслаиваться сетчатка. Тем не менее, когда я забирал собаку Александр Андреевич сказал‚ что все прошло прекрасно ‚ он поставил в оба зрачка французские линзы и линзы и прогноз хороший! Хочу отдельно отметить очень внимательное обследование и отношение к собаке персонала клиники‚ В частности Анны Германовны и Александра Андреевича! Эти врачи работают по призванию‚ с душой‚ а не просто за деньги!</div>
+
+										<div class="info">
+											<div class="name">Имя Фамилия</div>
+
+											<div class="row">
+												<div class="date">1 мая 2022</div>
+												<div class="location">Москва</div>
+											</div>
+										</div>
+
+										<div class="stars">
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_star"></use></svg>
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_star"></use></svg>
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_star"></use></svg>
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_star"></use></svg>
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_star"></use></svg>
+										</div>
+									</div>
+								</div>
+
+								<div class="swiper-slide">
+									<div class="review">
+										<div class="text">Прекрасная клиника! У нашей 20-месячной керри-блю-терьера вдруг резко покатилось зрение... Сначала ‚ мы этого не могли понять ‚ до тех пор, пока она не стала натыкаться на столбы и деревья! Собака стала вялой ‚ потеряла интерес к играм и жизни. Потом знакомая случайно взглянула на ее зрачки и определила катаракту., т.к. зрачки побелели. На приеме в Рекоме это подтвердили и назначили операцию через месяц, 14 мая.... При осмотре врачом Константиновским были даны очень осторожные прогнозы, за 1 глаз он ручался ‚ а2й был под большим вопросом ‚ так как начала отслаиваться сетчатка. Тем не менее, когда я забирал собаку Александр Андреевич сказал‚ что все прошло прекрасно ‚ он поставил в оба зрачка французские линзы и линзы и прогноз хороший! Хочу отдельно отметить очень внимательное обследование и отношение к собаке персонала клиники‚ В частности Анны Германовны и Александра Андреевича! Эти врачи работают по призванию‚ с душой‚ а не просто за деньги!</div>
+
+										<div class="info">
+											<div class="name">Имя Фамилия</div>
+
+											<div class="row">
+												<div class="date">1 мая 2022</div>
+												<div class="location">Москва</div>
+											</div>
+										</div>
+
+										<div class="stars">
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_star"></use></svg>
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_star"></use></svg>
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_star"></use></svg>
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_star"></use></svg>
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_star"></use></svg>
+										</div>
+									</div>
+								</div>
+
+								<div class="swiper-slide">
+									<div class="review">
+										<div class="text">Прекрасная клиника! У нашей 20-месячной керри-блю-терьера вдруг резко покатилось зрение... Сначала ‚ мы этого не могли понять ‚ до тех пор, пока она не стала натыкаться на столбы и деревья! Собака стала вялой ‚ потеряла интерес к играм и жизни. Потом знакомая случайно взглянула на ее зрачки и определила катаракту., т.к. зрачки побелели. На приеме в Рекоме это подтвердили и назначили операцию через месяц, 14 мая.... При осмотре врачом Константиновским были даны очень осторожные прогнозы, за 1 глаз он ручался ‚ а2й был под большим вопросом ‚ так как начала отслаиваться сетчатка. Тем не менее, когда я забирал собаку Александр Андреевич сказал‚ что все прошло прекрасно ‚ он поставил в оба зрачка французские линзы и линзы и прогноз хороший! Хочу отдельно отметить очень внимательное обследование и отношение к собаке персонала клиники‚ В частности Анны Германовны и Александра Андреевича! Эти врачи работают по призванию‚ с душой‚ а не просто за деньги!</div>
+
+										<div class="info">
+											<div class="name">Имя Фамилия</div>
+
+											<div class="row">
+												<div class="date">1 мая 2022</div>
+												<div class="location">Москва</div>
+											</div>
+										</div>
+
+										<div class="stars">
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_star"></use></svg>
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_star"></use></svg>
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_star"></use></svg>
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_star"></use></svg>
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_star"></use></svg>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="swiper-button-prev">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_arr_hor"></use></svg>
+							</div>
+
+							<div class="swiper-button-next">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_arr_hor"></use></svg>
+							</div>
+						</div>
+					</div>
+				</section>
+
+
+				<section class="faq block accordion">
+					<div class="cont">
+						<div class="block_head">
+							<div class="title">Часто задаваемые вопросы</div>
+						</div>
+
+						<div class="accordion_item active">
+							<div class="head">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_question"></use></svg>
+
+								<div class="title">Что делать если у моего питомца катаракта</div>
+
+								<svg class="arr"><use xlink:href="images/sprite.svg#ic_arr_ver"></use></svg>
+							</div>
+
+							<div class="data" style="display: block;">
+								<div class="text_block mini">
+									<p>В первую очередь вашему питомцу нужен офтальмолог. Обследование глаз позволит определить стадию катаракты и состояние глаза в целом. Также обследование позволит дать прогноз на зрение после операции. На сегодняшний день факоэмульсификация животным проводится в основном в крупных городах России.</p>
+
+									<p>Мы рекомендуем обратиться к Вашему лечащему доктору для получения направления, либо самостоятельно найти референтного офтальмолога в Вашем городе/округе.</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="accordion_item">
+							<div class="head">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_question"></use></svg>
+
+								<div class="title">Существует ли терапевтическое лечение катаракты</div>
+
+								<svg class="arr"><use xlink:href="images/sprite.svg#ic_arr_ver"></use></svg>
+							</div>
+
+							<div class="data">
+								<div class="text_block default mini">
+									<p>В первую очередь вашему питомцу нужен офтальмолог. Обследование глаз позволит определить стадию катаракты и состояние глаза в целом. Также обследование позволит дать прогноз на зрение после операции. На сегодняшний день факоэмульсификация животным проводится в основном в крупных городах России.</p>
+
+									<p>Мы рекомендуем обратиться к Вашему лечащему доктору для получения направления, либо самостоятельно найти референтного офтальмолога в Вашем городе/округе.</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="accordion_item">
+							<div class="head">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_question"></use></svg>
+
+								<div class="title">Откуда у моего питомца катаракта</div>
+
+								<svg class="arr"><use xlink:href="images/sprite.svg#ic_arr_ver"></use></svg>
+							</div>
+
+							<div class="data">
+								<div class="text_block default mini">
+									<p>В первую очередь вашему питомцу нужен офтальмолог. Обследование глаз позволит определить стадию катаракты и состояние глаза в целом. Также обследование позволит дать прогноз на зрение после операции. На сегодняшний день факоэмульсификация животным проводится в основном в крупных городах России.</p>
+
+									<p>Мы рекомендуем обратиться к Вашему лечащему доктору для получения направления, либо самостоятельно найти референтного офтальмолога в Вашем городе/округе.</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="accordion_item">
+							<div class="head">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_question"></use></svg>
+
+								<div class="title">Что будет если не оперировать катаракту</div>
+
+								<svg class="arr"><use xlink:href="images/sprite.svg#ic_arr_ver"></use></svg>
+							</div>
+
+							<div class="data">
+								<div class="text_block default mini">
+									<p>В первую очередь вашему питомцу нужен офтальмолог. Обследование глаз позволит определить стадию катаракты и состояние глаза в целом. Также обследование позволит дать прогноз на зрение после операции. На сегодняшний день факоэмульсификация животным проводится в основном в крупных городах России.</p>
+
+									<p>Мы рекомендуем обратиться к Вашему лечащему доктору для получения направления, либо самостоятельно найти референтного офтальмолога в Вашем городе/округе.</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="accordion_item">
+							<div class="head">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_question"></use></svg>
+
+								<div class="title">Сколько длится операция</div>
+
+								<svg class="arr"><use xlink:href="images/sprite.svg#ic_arr_ver"></use></svg>
+							</div>
+
+							<div class="data">
+								<div class="text_block default mini">
+									<p>В первую очередь вашему питомцу нужен офтальмолог. Обследование глаз позволит определить стадию катаракты и состояние глаза в целом. Также обследование позволит дать прогноз на зрение после операции. На сегодняшний день факоэмульсификация животным проводится в основном в крупных городах России.</p>
+
+									<p>Мы рекомендуем обратиться к Вашему лечащему доктору для получения направления, либо самостоятельно найти референтного офтальмолога в Вашем городе/округе.</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="accordion_item">
+							<div class="head">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_question"></use></svg>
+
+								<div class="title">Как протекает операция</div>
+
+								<svg class="arr"><use xlink:href="images/sprite.svg#ic_arr_ver"></use></svg>
+							</div>
+
+							<div class="data">
+								<div class="text_block default mini">
+									<p>В первую очередь вашему питомцу нужен офтальмолог. Обследование глаз позволит определить стадию катаракты и состояние глаза в целом. Также обследование позволит дать прогноз на зрение после операции. На сегодняшний день факоэмульсификация животным проводится в основном в крупных городах России.</p>
+
+									<p>Мы рекомендуем обратиться к Вашему лечащему доктору для получения направления, либо самостоятельно найти референтного офтальмолога в Вашем городе/округе.</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="accordion_item">
+							<div class="head">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_question"></use></svg>
+
+								<div class="title">Когда мое животное начнет видеть</div>
+
+								<svg class="arr"><use xlink:href="images/sprite.svg#ic_arr_ver"></use></svg>
+							</div>
+
+							<div class="data">
+								<div class="text_block default mini">
+									<p>В первую очередь вашему питомцу нужен офтальмолог. Обследование глаз позволит определить стадию катаракты и состояние глаза в целом. Также обследование позволит дать прогноз на зрение после операции. На сегодняшний день факоэмульсификация животным проводится в основном в крупных городах России.</p>
+
+									<p>Мы рекомендуем обратиться к Вашему лечащему доктору для получения направления, либо самостоятельно найти референтного офтальмолога в Вашем городе/округе.</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="accordion_item">
+							<div class="head">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_question"></use></svg>
+
+								<div class="title">Нужна ли имплантация искусственного хрусталика</div>
+
+								<svg class="arr"><use xlink:href="images/sprite.svg#ic_arr_ver"></use></svg>
+							</div>
+
+							<div class="data">
+								<div class="text_block default mini">
+									<p>В первую очередь вашему питомцу нужен офтальмолог. Обследование глаз позволит определить стадию катаракты и состояние глаза в целом. Также обследование позволит дать прогноз на зрение после операции. На сегодняшний день факоэмульсификация животным проводится в основном в крупных городах России.</p>
+
+									<p>Мы рекомендуем обратиться к Вашему лечащему доктору для получения направления, либо самостоятельно найти референтного офтальмолога в Вашем городе/округе.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+
+				<section class="action_block block">
+					<div class="cont">
+						<div class="data">
+							<div class="title">Не теряйте время, запишитесь к врачу!</div>
+
+							<div class="desc">При отсутствии должного и своевременного лечения глазное заболевание может привести к полной потере зрения</div>
+
+							<button class="btn modal_btn" data-modal="#order_modal">Записаться на прием</button>
+
+							<img data-src="images/action_block_img.png" alt="" class="img lazyload">
+						</div>
+					</div>
+				</section>
+			</div>
+
+
+			<footer>
+				<div class="cont row">
+					<div class="contacts">
+						<div class="title">Офтальмологии</div>
+
+						<div class="item">
+							<div class="city">Москва</div>
+
+							<div class="phone">
+								<a href="tel:+71234567890">+7 (123) 456-78-90</a>
+							</div>
+						</div>
+
+						<div class="item">
+							<div class="city">Санкт-Петербург</div>
+
+							<div class="phone">
+								<a href="tel:+71234567890">+7 (123) 456-78-90</a>
+							</div>
+						</div>
+
+						<div class="item">
+							<div class="city">Екатеринбург</div>
+
+							<div class="phone">
+								<a href="tel:+71234567890">+7 (123) 456-78-90</a>
+							</div>
+						</div>
+
+						<div class="item">
+							<div class="city">Пермь</div>
+
+							<div class="phone">
+								<a href="tel:+71234567890">+7 (123) 456-78-90</a>
+							</div>
+						</div>
+					</div>
+
+					<div class="links">
+						<div class="title">Владельцам</div>
+
+						<div class="items">
+							<div><a href="/">Статьи</a></div>
+							<div><a href="/">Видео</a></div>
+							<div><a href="/">Онлайн консультация</a></div>
+							<div><a href="/">Вызов на дом</a></div>
+						</div>
+					</div>
+
+					<div class="links">
+						<div class="title">Специалистам</div>
+
+						<div class="items">
+							<div><a href="/">Статьи</a></div>
+							<div><a href="/">Направления</a></div>
+							<div><a href="/">Консультация</a></div>
+							<div><a href="/">Стажировка</a></div>
+							<div><a href="/">Вакансии</a></div>
+							<div><a href="/">График обучения</a></div>
+						</div>
+					</div>
+
+					<div class="info">
+						<div class="logo">
+							<img src="images/logo2.svg" alt="">
+						</div>
+
+						<div class="phone">
+							<a href="tel:+71234567890">+7 (123) 456-78-90</a>
+						</div>
+
+						<button class="consult_btn">
+							<svg class="icon"><use xlink:href="images/sprite.svg#ic_video"></use></svg>
+							<span>Онлайн консультация</span>
+						</button>
+
+						<div class="socials">
+							<a href="/" target="_blank" rel="noopener nofollow">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_vk"></use></svg>
+							</a>
+
+							<a href="/" target="_blank" rel="noopener nofollow">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_youtube"></use></svg>
+							</a>
+
+							<a href="/" target="_blank" rel="noopener nofollow">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_instagram"></use></svg>
+							</a>
+
+							<a href="/" target="_blank" rel="noopener nofollow">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_fb"></use></svg>
+							</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="cont row">
+					<div class="pay">
+						<div><img src="images/ic_pay1.svg" alt=""></div>
+						<div><img src="images/ic_pay2.svg" alt=""></div>
+						<div><img src="images/ic_pay3.svg" alt=""></div>
+						<div><img src="images/ic_pay4.svg" alt=""></div>
+					</div>
+
+					<div class="privacy_policy_link">
+						<a href="/">Политика конфиденциальности</a>
+					</div>
+
+					<div class="copyright">&copy;2022 Ветеринарная офтальмология</div>
+				</div>
+			</footer>
+
+
+			<section class="mob_location">
+				<div class="items">
+					<div><button class="btn active">
+						<span>Москва</span>
+						<svg class="icon"><use xlink:href="images/sprite.svg#ic_check"></use></svg>
+					</button></div>
+
+					<div><button class="btn">
+						<span>Санкт-Петербург</span>
+						<svg class="icon"><use xlink:href="images/sprite.svg#ic_check"></use></svg>
+					</button></div>
+
+					<div><button class="btn">
+						<span>Екатеринбург</span>
+						<svg class="icon"><use xlink:href="images/sprite.svg#ic_check"></use></svg>
+					</button></div>
+
+					<div><button class="btn">
+						<span>Пермь</span>
+						<svg class="icon"><use xlink:href="images/sprite.svg#ic_check"></use></svg>
+					</button></div>
+				</div>
+
+				<button class="order_btn modal_btn" data-modal="#order_modal">Записаться</button>
+			</section>
+
+
+			<section class="mob_menu">
+				<div class="menu">
+					<div class="menu_item">
+						<a href="#" class="sub_link">
+							<span>Клиники</span>
+							<svg class="arr"><use xlink:href="images/sprite.svg#ic_arr_ver"></use></svg>
+						</a>
+
+						<div class="sub_menu">
+							<div><a href="/">Москва</a></div>
+							<div><a href="/">Санкт-Петербург</a></div>
+							<div><a href="/">Екатеринбург</a></div>
+							<div><a href="/">Пермь</a></div>
+						</div>
+					</div>
+
+					<div class="menu_item">
+						<a href="/">Врачи</a>
+					</div>
+
+					<div class="menu_item">
+						<a href="/">Услуги</a>
+					</div>
+
+					<div class="menu_item">
+						<a href="/">Цены</a>
+					</div>
+
+					<div class="menu_item">
+						<a href="#" class="sub_link">
+							<span>Владельцам</span>
+							<svg class="arr"><use xlink:href="images/sprite.svg#ic_arr_ver"></use></svg>
+						</a>
+
+						<div class="sub_menu">
+							<div><a href="/">Статьи</a></div>
+							<div><a href="/">Видео</a></div>
+							<div><a href="/">Онлайн консультация</a></div>
+							<div><a href="/">Вызов на дом</a></div>
+						</div>
+					</div>
+
+					<div class="menu_item">
+						<a href="#" class="sub_link">
+							<span>Специалистам</span>
+							<svg class="arr"><use xlink:href="images/sprite.svg#ic_arr_ver"></use></svg>
+						</a>
+
+						<div class="sub_menu">
+							<div><a href="/">Статьи</a></div>
+							<div><a href="/">Направление</a></div>
+							<div><a href="/">Консультация</a></div>
+							<div><a href="/">Стажировка</a></div>
+							<div><a href="/">Вакансии</a></div>
+							<div><a href="/">График обучения</a></div>
+						</div>
+					</div>
+
+					<div class="menu_item">
+						<a href="/">Отзывы</a>
+					</div>
+
+					<div class="menu_item">
+						<a href="/">Контакты</a>
+					</div>
+				</div>
+
+				<div class="contacts">
+					<div class="phone">
+						<a href="tel:+71234567890">+7 (123) 456-78-90</a>
+					</div>
+
+					<div class="time">На связи с 9 до 21 ежедневно</div>
+
+					<div class="messengers">
+						<a href="/" target="_blank" rel="noopener nofollow">
+							<svg class="icon"><use xlink:href="images/sprite.svg#ic_whatsapp"></use></svg>
+						</a>
+
+						<a href="/" target="_blank" rel="noopener nofollow">
+							<svg class="icon"><use xlink:href="images/sprite.svg#ic_telegram"></use></svg>
+						</a>
+					</div>
+
+					<button class="order_btn modal_btn" data-modal="#order_modal">Записаться</button>
+				</div>
+			</section>
+
+
+			<section class="mob_panel">
+				<div>
+					<button class="search_btn btn">
+						<div class="icon">
+							<svg><use xlink:href="images/sprite.svg#ic_search"></use></svg>
+						</div>
+						<span>Поиск</span>
+					</button>
+				</div>
+
+				<div>
+					<button class="menu_btn btn">
+						<div class="icon">
+							<svg><use xlink:href="images/sprite.svg#ic_menu"></use></svg>
+						</div>
+						<span>Меню</span>
+					</button>
+				</div>
+
+				<div>
+					<a href="/" class="btn">
+						<div class="icon">
+							<svg><use xlink:href="images/sprite.svg#ic_eye"></use></svg>
+						</div>
+						<span>Клиники</span>
+					</a>
+				</div>
+			</section>
+
+
+			<div class="buttonUp">
+				<button class="btn">
+					<svg class="icon"><use xlink:href="images/sprite.svg#ic_arr_ver"></use></svg>
+				</button>
+			</div>
+
+			<div class="overlay"></div>
+		</div>
+
+
+		<div class="supports_error">
+			Ваш браузер устарел рекомендуем обновить его до последней версии<br> или использовать другой более современный.
+		</div>
+
+
+		<section class="modal" id="order_modal">
+			<div class="modal_title">Записаться на прием</div>
+
+			<div class="modal_desc">Заполните форму и мы свяжемся в течение 15 минут</div>
+
+			<div class="city">
+				<div class="label">Ваш город</div>
+
+				<div class="select">
+					<select name="">
+						<option value="1" selected>Москва</option>
+						<option value="2">Москва</option>
+						<option value="3">Москва</option>
+						<option value="4">Москва</option>
+					</select>
+
+					<svg class="arr"><use xlink:href="images/sprite.svg#ic_arr_ver"></use></svg>
+				</div>
+			</div>
+
+			<form action="" class="form">
+				<div class="line">
+					<div class="label">Имя</div>
+
+					<div class="field">
+						<input type="text" name="" value="" class="input">
+					</div>
+				</div>
+
+				<div class="line">
+					<div class="label">Телефон</div>
+
+					<div class="field">
+						<input type="tel" name="" value="" class="input" placeholder="+7">
+					</div>
+				</div>
+
+				<div class="submit">
+					<button type="submit" class="submit_btn">Записаться</button>
+				</div>
+
+				<div class="agree">Отправляя форму, Вы даете согласие на обработку персональных данных</div>
+			</form>
+		</section>
+
+
+		<section class="modal" id="callback_modal">
+			<div class="modal_title">Заказать звонок</div>
+
+			<div class="modal_desc">Заполните форму и мы свяжемся в течение 15 минут</div>
+
+			<div class="city">
+				<div class="label">Ваш город</div>
+
+				<div class="select">
+					<select name="">
+						<option value="1" selected>Москва</option>
+						<option value="2">Москва</option>
+						<option value="3">Москва</option>
+						<option value="4">Москва</option>
+					</select>
+
+					<svg class="arr"><use xlink:href="images/sprite.svg#ic_arr_ver"></use></svg>
+				</div>
+			</div>
+
+			<form action="" class="form">
+				<div class="line">
+					<div class="label">Имя</div>
+
+					<div class="field">
+						<input type="text" name="" value="" class="input">
+					</div>
+				</div>
+
+				<div class="line">
+					<div class="label">Телефон</div>
+
+					<div class="field">
+						<input type="tel" name="" value="" class="input" placeholder="+7">
+					</div>
+				</div>
+
+				<div class="line">
+					<div class="label">Время для звонка</div>
+
+					<div class="field">
+						<input type="text" name="" value="" class="input">
+					</div>
+				</div>
+
+				<div class="submit">
+					<button type="submit" class="submit_btn">Перезвоните мне</button>
+				</div>
+
+				<div class="agree">Отправляя форму, Вы даете согласие на обработку персональных данных</div>
+			</form>
+		</section>
+
+
+		<section class="modal" id="question_modal">
+			<div class="modal_title">Задать вопрос</div>
+
+			<div class="modal_desc">Заполните форму и мы свяжемся в течение 15 минут</div>
+
+			<div class="city">
+				<div class="label">Ваш город</div>
+
+				<div class="select">
+					<select name="">
+						<option value="1" selected>Москва</option>
+						<option value="2">Москва</option>
+						<option value="3">Москва</option>
+						<option value="4">Москва</option>
+					</select>
+
+					<svg class="arr"><use xlink:href="images/sprite.svg#ic_arr_ver"></use></svg>
+				</div>
+			</div>
+
+			<form action="" class="form">
+				<div class="line">
+					<div class="label">Имя</div>
+
+					<div class="field">
+						<input type="text" name="" value="" class="input">
+					</div>
+				</div>
+
+				<div class="line">
+					<div class="label">Телефон</div>
+
+					<div class="field">
+						<input type="tel" name="" value="" class="input" placeholder="+7">
+					</div>
+				</div>
+
+				<div class="line">
+					<div class="label">Эл. почта</div>
+
+					<div class="field">
+						<input type="email" name="" value="" class="input">
+					</div>
+				</div>
+
+				<div class="line">
+					<div class="label">Ваш вопрос</div>
+
+					<div class="field">
+						<textarea name=""></textarea>
+					</div>
+				</div>
+
+				<div class="submit">
+					<button type="submit" class="submit_btn">Отправить</button>
+				</div>
+
+				<div class="agree">Отправляя форму, Вы даете согласие на обработку персональных данных</div>
+			</form>
+		</section>
+
+
+		<section class="modal" id="doctor_order_modal">
+			<div class="modal_title">Выезд офтальмолога на дом</div>
+
+			<div class="modal_desc">Мы перезвоним вам и договоримся о выезде</div>
+
+			<div class="city">
+				<div class="label">Ваш город</div>
+
+				<div class="select">
+					<select name="">
+						<option value="1" selected>Москва</option>
+						<option value="2">Москва</option>
+						<option value="3">Москва</option>
+						<option value="4">Москва</option>
+					</select>
+
+					<svg class="arr"><use xlink:href="images/sprite.svg#ic_arr_ver"></use></svg>
+				</div>
+			</div>
+
+			<form action="" class="form">
+				<div class="line">
+					<div class="label">Имя</div>
+
+					<div class="field">
+						<input type="text" name="" value="" class="input">
+					</div>
+				</div>
+
+				<div class="line">
+					<div class="label">Телефон</div>
+
+					<div class="field">
+						<input type="tel" name="" value="" class="input" placeholder="+7">
+					</div>
+				</div>
+
+				<div class="submit">
+					<button type="submit" class="submit_btn">Отправить</button>
+				</div>
+
+				<div class="agree">Отправляя форму, Вы даете согласие на обработку персональных данных</div>
+			</form>
+		</section>
+
+
+		<section class="modal success" id="success_modal">
+			<div class="modal_title">Спасибо! Ожидайте звонка<br> от менеджера</div>
+		</section>
+
+
+		<!-- Подключение javascript файлов -->
+		<script src="js/jquery-3.5.0.min.js"></script>
+		<script src="js/swiper-bundle.min.js"></script>
+		<script src="js/inputmask.min.js"></script>
+		<script src="js/nice-select.js"></script>
+		<script src="js/fancybox.min.js"></script>
+		<script src="js/functions.js"></script>
+		<script src="js/scripts.js"></script>
+	</body>
+</html>

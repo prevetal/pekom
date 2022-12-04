@@ -1,0 +1,596 @@
+@media print,
+(max-width: 767px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+
+
+
+    /*--------------
+        Fancybox
+    --------------*/
+    .fancybox__slide
+    {
+        padding: 20px;
+    }
+
+
+
+    /*--------------
+        All link
+    --------------*/
+    .all_link a .icon
+    {
+        width: 16px;
+        height: 16px;
+        margin-left: 2px;
+    }
+
+
+
+    .pagination a:nth-child(4n) ~ a
+    {
+        display: none;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header .order_btn
+    {
+        display: none;
+    }
+
+
+
+    /*---------------
+        Page head
+    ---------------*/
+    .breadcrumbs .sep
+    {
+        margin: 0 2px;
+    }
+
+
+    .page_title
+    {
+        width: 100%;
+    }
+
+
+    .page_head .specialization,
+    .page_head .city
+    {
+        margin-top: 12px;
+        margin-left: 0;
+    }
+
+    .page_head .filter .specialization,
+    .page_head .filter .city
+    {
+        margin-top: 0;
+        margin-left: 12px;
+    }
+
+
+    .page_head .nice-select .list
+    {
+        right: auto;
+        left: 0;
+    }
+
+
+
+    /*----------------
+        Typography
+    ----------------*/
+    .text_block figure figcaption
+    {
+        font-size: 13px;
+
+        padding: 8px 20px;
+    }
+
+
+    .text_block figure.left,
+    .text_block figure.right
+    {
+        float: none;
+
+        width: 100%;
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section .cont
+    {
+        padding-top: 20px;
+
+        align-items: flex-start;
+        align-content: flex-start;
+    }
+
+
+    .first_section .data
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+    .first_section .title
+    {
+        font-size: 27px;
+    }
+
+
+    .first_section .desc
+    {
+        font-size: 16px;
+
+        width: 192px;
+        max-width: 100%;
+    }
+
+    .first_section .desc br
+    {
+        display: none;
+    }
+
+
+    .first_section .image
+    {
+        right: -64px;
+
+        width: 343px;
+    }
+
+
+
+    /*---------------
+        Vacancies
+    ---------------*/
+    .vacancies .row
+    {
+        margin-left: 0;
+    }
+
+    .vacancies .row > *
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .vacancies .row > *.mob_hide
+    {
+        display: none;
+    }
+
+
+
+    /*--------------
+        About us
+    --------------*/
+    .about_us .title
+    {
+        font-size: 21px;
+
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+
+    .about_us .doctor
+    {
+        padding: 24px 24px 256px;
+
+        border-radius: 24px;
+    }
+
+
+    .about_us .doctor .name
+    {
+        font-size: 21px;
+    }
+
+
+    .about_us .doctor .text
+    {
+        width: 100%;
+        padding: 0;
+    }
+
+
+    .about_us .doctor .photo.small
+    {
+        right: -32px;
+
+        width: 280px;
+        height: 280px;
+    }
+
+
+    .about_us .awards
+    {
+        display: block;
+        overflow: auto;
+
+        width: calc(100% + 32px);
+        margin: 12px -16px 0;
+        padding: 12px 40px;
+
+        white-space: nowrap;
+
+        scrollbar-color: transparent transparent !important;
+        scrollbar-width: thin !important;
+    }
+
+    .about_us .awards::-webkit-scrollbar
+    {
+        width: 0 !important;
+        height: 0 !important;
+
+        background-color: transparent !important;
+    }
+
+    .about_us .awards::-webkit-scrollbar-thumb
+    {
+        background-color: transparent !important;
+    }
+
+
+    .about_us .awards .award
+    {
+        display: inline-block;
+
+        width: 240px;
+        max-width: none;
+        margin: 0;
+
+        vertical-align: top;
+        white-space: normal;
+    }
+
+    .about_us .awards .award + .award
+    {
+        margin-left: 8px;
+    }
+
+
+
+    /*----------------
+        Internship
+    ----------------*/
+    .internship .data
+    {
+        padding: 0;
+    }
+
+
+    .internship .title
+    {
+        font-size: 21px;
+
+        margin-bottom: 20px;
+    }
+
+
+    .internship .cities .label
+    {
+        margin-bottom: 12px;
+    }
+
+
+    .internship .cities .row
+    {
+        font-size: 21px;
+
+        margin-bottom: -20px;
+        margin-left: 0;
+    }
+
+    .internship .cities .row > *
+    {
+        width: 100%;
+        margin-bottom: 20px;
+        margin-left: 0;
+    }
+
+
+    .internship .cities .icon
+    {
+        width: 24px;
+        height: 24px;
+    }
+
+    .internship .cities .icon + *
+    {
+        width: calc(100% - 32px);
+    }
+
+
+
+    /*-----------------
+        Consulttion
+    -----------------*/
+    .consulttion .messengers
+    {
+        display: block;
+
+        margin-left: 0;
+    }
+
+
+    .consulttion .messengers > *
+    {
+        display: flex;
+
+        margin-bottom: 8px;
+        margin-left: 0;
+
+        justify-content: flex-start;
+        align-items: flex-start;
+        align-content: flex-start;
+        flex-wrap: wrap;
+    }
+
+
+
+    /*----------------------
+        Service included
+    ----------------------*/
+    .service_included .row
+    {
+        margin-bottom: -24px;
+        margin-left: 0;
+    }
+
+    .service_included .row > *
+    {
+        width: 100%;
+        margin-bottom: 24px;
+        margin-left: 0;
+    }
+
+
+
+    /*---------------------
+        Service doctors
+    ---------------------*/
+    .service_doctors .content
+    {
+        margin-top: 40px;
+
+        order: 2;
+    }
+
+    .service_doctors .content + aside
+    {
+        margin-top: 0;
+    }
+
+
+    .service_doctors .doctor .name
+    {
+        font-size: 21px;
+    }
+
+
+    .service_doctors .doctor .photo
+    {
+        width: 350px;
+        max-width: 100%;
+        height: 438px;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+
+
+    /*--------------
+        Articles
+    --------------*/
+    .articles .row
+    {
+        margin-left: 0;
+    }
+
+    .articles .row > *
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+
+    /*------------
+        Videos
+    ------------*/
+    .videos .row
+    {
+        margin-left: 0;
+    }
+
+    .videos .row > *
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+
+    /*-------------------
+        Photo gallery
+    -------------------*/
+    .photo_gallery .swiper,
+    .photo_gallery .swiper-slide,
+    .photo_gallery .item .thumb
+    {
+        height: 292px;
+    }
+
+
+
+    /*-------------
+        Doctors
+    -------------*/
+    .doctors .swiper-slide
+    {
+        width: 254px;
+    }
+
+
+    .doctors .swiper-button-next,
+    .doctors .swiper-button-prev
+    {
+        display: none;
+    }
+
+
+
+    /*-----------------
+        Clinic info
+    -----------------*/
+    .clinic_info .item
+    {
+        align-items: flex-start;
+        align-content: flex-start;
+    }
+
+
+    .clinic_info .item .phone
+    {
+        line-height: 100%;
+    }
+
+
+    .clinic_info .item .callback_btn
+    {
+        margin-top: 12px;
+        margin-left: 0;
+    }
+
+
+
+    /*--------------
+        Services
+    --------------*/
+    .services .row
+    {
+        margin-left: 0;
+    }
+
+    .services .row > *
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+    .services .service .name
+    {
+        width: 179px;
+    }
+
+
+
+    /*-----------------
+        Only method
+    -----------------*/
+    .only_method .row
+    {
+        margin-bottom: -24px;
+        margin-left: 0;
+    }
+
+    .only_method .row > *
+    {
+        width: 100%;
+        margin-bottom: 24px;
+        margin-left: 0;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer .contacts
+    {
+        display: flex;
+
+        width: 100%;
+        margin-bottom: 8px;
+
+        justify-content: space-between;
+        align-items: flex-start;
+        align-content: flex-start;
+        flex-wrap: wrap;
+    }
+
+
+    footer .contacts .title
+    {
+        width: 100%;
+    }
+
+
+    footer .contacts .item
+    {
+        width: calc(50% - 6px);
+        margin-bottom: 16px;
+    }
+
+    footer .contacts .item + .item
+    {
+        margin-top: 0;
+    }
+
+
+
+    footer .links
+    {
+        width: calc(50% - 6px);
+    }
+
+
+
+    footer .info .phone
+    {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+
+    footer .socials
+    {
+        width: 100%;
+    }
+
+
+
+    footer .logo
+    {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    footer .logo img
+    {
+        margin-left: 0;
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+}

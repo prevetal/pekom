@@ -1,0 +1,1541 @@
+@media print,
+(max-width: 1023px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --sidebar_width: 100%;
+        --sidebar_width_small: 100%;
+        --font_size: 16px;
+        --font_size_title: 23px;
+    }
+
+
+    .cont
+    {
+        padding: 0 16px;
+    }
+
+
+    .content_flex .content,
+    .content_flex .content.big
+    {
+        width: 100%;
+    }
+
+    .content.mob_last
+    {
+        order: 2;
+    }
+
+
+    .block
+    {
+        margin-bottom: 40px;
+    }
+
+    .block.tablet_hide
+    {
+        display: none;
+    }
+
+
+
+    /*--------------
+        Fancybox
+    --------------*/
+    .fancybox__slide
+    {
+        padding: 24px;
+    }
+
+
+    .fancybox__content > .carousel__button.is-close
+    {
+        top: 4px;
+        right: 4px;
+
+        width: 40px;
+        height: 40px;
+    }
+
+    .modal.fancybox__content > .carousel__button.is-close svg
+    {
+        width: 20px;
+        height: 20px;
+    }
+
+
+
+    /*---------------
+        Accordion
+    ---------------*/
+    .accordion_item .head
+    {
+        padding: 12px 40px 12px 44px;
+    }
+
+
+    .accordion_item .head .icon
+    {
+        left: 12px;
+    }
+
+
+    .accordion_item .head .arr
+    {
+        right: 12px;
+
+        width: 20px;
+        height: 20px;
+    }
+
+
+    .accordion_item .data
+    {
+        padding: 0 40px 12px 44px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header .info
+    {
+        padding: 6px 0;
+    }
+
+    header .bottom
+    {
+        display: none;
+    }
+
+
+    header .logo img
+    {
+        height: 38px;
+    }
+
+
+    header .time
+    {
+        font-size: 11px;
+
+        margin-left: 20px;
+    }
+
+
+    header .mob_links
+    {
+        display: flex;
+    }
+
+
+    header .location,
+    header .contacts
+    {
+        display: none;
+    }
+
+
+    header .order_btn
+    {
+        margin-left: 20px;
+    }
+
+
+
+    /*-------------
+        Sidebar
+    -------------*/
+    .content + aside
+    {
+        margin-top: 40px;
+    }
+
+    .content.mob_last + aside
+    {
+        margin-top: 0;
+        margin-bottom: 40px;
+    }
+
+
+
+    aside .files
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+    aside .add_review_banner
+    {
+        width: 531px;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+
+
+    aside .links > * + *
+    {
+        margin-top: 4px;
+    }
+
+
+
+    /*---------------
+        Page head
+    ---------------*/
+    .page_head,
+    .page_head.with_image
+    {
+        padding: 16px 0;
+    }
+
+
+    .page_head.with_image .cont
+    {
+        display: flex;
+        flex-direction: column;
+
+        min-height: 408px;
+    }
+
+    .page_head.with_image .data
+    {
+        width: 100%;
+
+        align-self: flex-start;
+    }
+
+
+    .page_head .order_btn
+    {
+        margin-top: auto;
+    }
+
+
+    .page_title
+    {
+        font-size: 30px;
+    }
+
+
+    .page_head .filter
+    {
+        width: 100%;
+        margin-top: 16px;
+    }
+
+    .page_head .filter:not(.mob_show)
+    {
+        display: none;
+    }
+
+
+    .page_head .service_price
+    {
+        margin-top: auto;
+    }
+
+    .page_head .service_price .price
+    {
+        font-size: 29px;
+    }
+
+
+    .page_head .paid_consult
+    {
+        margin-top: auto;
+    }
+
+
+    .page_head .filter .sort .mini_modal,
+    .page_head .filter .sort .mini_modal.active
+    {
+        right: auto;
+        left: 0;
+
+        width: 280px;
+    }
+
+
+
+    .page_head .order_form
+    {
+        display: none;
+    }
+
+
+    .page_head .mob_order_btn
+    {
+        display: block;
+    }
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+    .block_head
+    {
+        margin-bottom: 12px;
+    }
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+    .form .input
+    {
+        font-size: 16px;
+
+        height: 40px;
+    }
+
+
+    .form textarea
+    {
+        font-size: 16px;
+
+        height: 100px;
+    }
+
+
+    .form .radio
+    {
+        font-size: 16px;
+    }
+
+
+    .form .submit
+    {
+        padding: 0;
+    }
+
+
+
+    /*----------------
+        Typography
+    ----------------*/
+    .text_block h2
+    {
+        font-size: 23px;
+
+        margin-bottom: 20px !important;
+    }
+
+    .text_block h3
+    {
+        font-size: 18px;
+
+        margin-bottom: 20px !important;
+    }
+
+
+    .text_block .message
+    {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+
+    .text_block .big
+    {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section .cont
+    {
+        min-height: 440px;
+    }
+
+
+    .first_section .data
+    {
+        width: 335px;
+        margin-left: 20px;
+    }
+
+
+    .first_section .title
+    {
+        font-size: 30px;
+    }
+
+
+    .first_section .desc
+    {
+        font-size: 18px;
+    }
+
+
+    .first_section .order_btn
+    {
+        font-size: 18px;
+
+        margin-top: 32px;
+        padding: 10px 24px;
+    }
+
+
+    .first_section .image
+    {
+        right: 0;
+
+        width: 416px;
+        max-width: 100%;
+        max-height: calc(100% - 24px);
+        margin-right: 0;
+    }
+
+
+
+    /*--------------
+        Schedule
+    --------------*/
+    .schedule .item
+    {
+        padding: 24px;
+
+        border-radius: 24px;
+    }
+
+
+    .schedule .item .data
+    {
+        width: 100%;
+    }
+
+
+    .schedule .item .data .name
+    {
+        font-size: 20px;
+
+        margin-bottom: 8px;
+    }
+
+
+    .schedule .item .bottom
+    {
+        padding: 20px;
+    }
+
+    .schedule .item .bottom > * + *
+    {
+        margin-top: 12px;
+    }
+
+
+    .schedule .item .col
+    {
+        width: 100%;
+        margin-top: 24px;
+    }
+
+
+    .schedule .item .date
+    {
+        font-size: 29px;
+
+        margin-bottom: 12px;
+    }
+
+
+
+    /*------------------
+        Vacancy info
+    ------------------*/
+    .vacancy_info .title
+    {
+        font-size: 20px;
+
+        margin-bottom: 8px;
+    }
+
+
+
+    /*-----------------
+        Send resume
+    -----------------*/
+    .send_resume
+    {
+        width: 531px;
+        max-width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+
+    .send_resume .title
+    {
+        font-size: 23px;
+    }
+
+
+
+    /*---------------
+        Vacancies
+    ---------------*/
+    .vacancies .row
+    {
+        margin-bottom: -12px;
+        margin-left: -12px;
+    }
+
+    .vacancies .row > *
+    {
+        width: calc(50% - 12px);
+        margin-bottom: 12px;
+        margin-left: 12px;
+    }
+
+    .vacancies .row > *.table_hide
+    {
+        display: none;
+    }
+
+
+    .vacancies .vacancy .name
+    {
+        font-size: 20px;
+
+        min-height: 88px;
+    }
+
+
+
+    /*--------------
+        About us
+    --------------*/
+    .about_us .block_title
+    {
+        font-size: 30px;
+    }
+
+
+    .about_us .title
+    {
+        font-size: 21px;
+
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+
+    .about_us .row
+    {
+        display: block;
+        overflow: auto;
+
+        width: calc(100% + 32px);
+        margin: 0 -16px;
+        padding: 0 16px;
+
+        white-space: nowrap;
+
+        scrollbar-color: transparent transparent !important;
+        scrollbar-width: thin !important;
+    }
+
+    .about_us .row::-webkit-scrollbar
+    {
+        width: 0 !important;
+        height: 0 !important;
+
+        background-color: transparent !important;
+    }
+
+    .about_us .row::-webkit-scrollbar-thumb
+    {
+        background-color: transparent !important;
+    }
+
+
+    .about_us .row > *
+    {
+        display: inline-block;
+
+        width: 350px;
+        max-width: none;
+        margin: 0;
+
+        vertical-align: top;
+        white-space: normal;
+    }
+
+    .about_us .row > * + *
+    {
+        margin-left: 12px;
+    }
+
+
+    .about_us .doctor
+    {
+        padding: 24px 24px 256px;
+
+        border-radius: 24px;
+    }
+
+
+    .about_us .doctor .name
+    {
+        font-size: 21px;
+    }
+
+
+    .about_us .doctor .text
+    {
+        width: 100%;
+        padding: 0;
+    }
+
+
+    .about_us .doctor .photo
+    {
+        width: 280px;
+        height: 280px;
+    }
+
+    .about_us .doctor .photo.small
+    {
+        right: -32px;
+
+        width: 280px;
+        height: 280px;
+    }
+
+
+    .about_us .awards
+    {
+        display: block;
+        overflow: auto;
+
+        width: calc(100% + 32px);
+        margin: 12px -16px 0;
+        padding: 12px 40px;
+
+        white-space: nowrap;
+
+        scrollbar-color: transparent transparent !important;
+        scrollbar-width: thin !important;
+    }
+
+    .about_us .awards::-webkit-scrollbar
+    {
+        width: 0 !important;
+        height: 0 !important;
+
+        background-color: transparent !important;
+    }
+
+    .about_us .awards::-webkit-scrollbar-thumb
+    {
+        background-color: transparent !important;
+    }
+
+
+    .about_us .awards .award
+    {
+        display: inline-block;
+
+        width: 240px;
+        max-width: none;
+        margin: 0;
+
+        vertical-align: top;
+        white-space: normal;
+    }
+
+    .about_us .awards .award + .award
+    {
+        margin-left: 8px;
+    }
+
+
+
+    /*----------------
+        Internship
+    ----------------*/
+    .internship .data
+    {
+        padding: 0;
+    }
+
+
+    .internship .title
+    {
+        font-size: 21px;
+
+        margin-bottom: 20px;
+    }
+
+
+    .internship .cities .label
+    {
+        margin-bottom: 12px;
+    }
+
+
+    .internship .cities .row
+    {
+        font-size: 21px;
+
+        margin-bottom: -20px;
+        margin-left: 0;
+    }
+
+    .internship .cities .row > *
+    {
+        width: 100%;
+        margin-bottom: 20px;
+        margin-left: 0;
+    }
+
+
+    .internship .cities .icon
+    {
+        width: 24px;
+        height: 24px;
+    }
+
+    .internship .cities .icon + *
+    {
+        width: calc(100% - 32px);
+    }
+
+
+
+    /*----------------------
+        Service included
+    ----------------------*/
+    .service_included .data
+    {
+        padding: 0;
+    }
+
+
+    .service_included .title
+    {
+        font-size: 21px;
+    }
+
+
+
+    /*---------------------
+        Service doctors
+    ---------------------*/
+    .service_doctors .content
+    {
+        margin-top: 40px;
+
+        order: 2;
+    }
+
+    .service_doctors .content + aside
+    {
+        margin-top: 0;
+    }
+
+
+    .service_doctors .doctor .name
+    {
+        font-size: 21px;
+    }
+
+
+    .service_doctors .doctor .photo
+    {
+        width: 350px;
+        max-width: 100%;
+        height: 438px;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+
+
+    /*----------------
+        Error info
+    ----------------*/
+    .error_info
+    {
+        padding: 40px 0;
+    }
+
+
+    .error_info .cont
+    {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .error_info .title
+    {
+        font-size: 30px;
+    }
+
+
+    .error_info .image
+    {
+        position: relative;
+        left: 0;
+
+        margin-right: auto;
+        margin-left: auto;
+
+        order: 2;
+    }
+
+
+
+    /*-------------------
+        Contacts info
+    -------------------*/
+    .contacts_info
+    {
+        padding: 456px 0 40px;
+    }
+
+
+    .contacts_info .map
+    {
+        height: 440px;
+    }
+
+
+    .contacts_info .data
+    {
+        width: 531px;
+        margin: 0 auto;
+        padding: 24px;
+
+        border-radius: 24px;
+    }
+
+
+
+    /*-------------
+        Reviews
+    -------------*/
+    .reviews .content
+    {
+        margin-top: 40px;
+
+        order: 2;
+    }
+
+    .reviews .content + aside
+    {
+        margin-top: 0;
+
+        order: 1;
+    }
+
+
+    .reviews .list > * + *
+    {
+        margin-top: 12px;
+    }
+
+
+
+    /*----------------
+        Order form
+    ----------------*/
+    .order_form
+    {
+        width: 531px;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+
+    .order_form .title
+    {
+        font-size: 23px;
+    }
+
+
+
+    /*-------------------
+        Services info
+    -------------------*/
+    .services_info .row
+    {
+        margin-bottom: -24px;
+        margin-left: -12px;
+    }
+
+    .services_info .row > *
+    {
+        width: calc(50% - 12px);
+        margin-bottom: 24px;
+        margin-left: 12px;
+    }
+
+
+    .services_info .service .thumb
+    {
+        border-radius: 24px;
+        background-size: auto 32px;
+    }
+
+    .services_info .service .name
+    {
+        font-size: 20px;
+    }
+
+
+
+    /*--------------
+        Articles
+    --------------*/
+    .articles .row
+    {
+        margin-bottom: -24px;
+        margin-left: -12px;
+    }
+
+    .articles .row > *
+    {
+        width: calc(50% - 12px);
+        margin-bottom: 24px;
+        margin-left: 12px;
+    }
+
+
+    .articles .article .thumb
+    {
+        border-radius: 24px;
+        background-size: auto 32px;
+    }
+
+    .articles .article .name
+    {
+        font-size: 20px;
+    }
+
+
+    .articles .article .desc
+    {
+        margin-top: 4px;
+    }
+
+
+
+    /*------------
+        Videos
+    ------------*/
+    .videos .row
+    {
+        margin-bottom: -24px;
+        margin-left: -12px;
+    }
+
+    .videos .row > *
+    {
+        width: calc(50% - 12px);
+        margin-bottom: 24px;
+        margin-left: 12px;
+    }
+
+
+    .videos .video .thumb
+    {
+        border-radius: 24px;
+        background-size: auto 32px;
+    }
+
+    .videos .video .name
+    {
+        font-size: 20px;
+    }
+
+    .videos .video .desc
+    {
+        margin-top: 4px;
+    }
+
+
+
+    /*-----------------
+        Doctor info
+    -----------------*/
+    .doctor_info .photo
+    {
+        width: 350px;
+        max-width: 100%;
+        margin: 0 auto;
+        padding-bottom: 438px;
+
+        border-radius: 24px;
+        background-size: auto 32px;
+    }
+
+
+    .doctor_info .awards
+    {
+        display: block;
+        overflow: auto;
+
+        width: calc(100% + 32px);
+        margin: 12px -16px 0;
+        padding: 12px 40px;
+
+        white-space: nowrap;
+
+        scrollbar-color: transparent transparent !important;
+        scrollbar-width: thin !important;
+    }
+
+    .doctor_info .awards::-webkit-scrollbar
+    {
+        width: 0 !important;
+        height: 0 !important;
+
+        background-color: transparent !important;
+    }
+
+    .doctor_info .awards::-webkit-scrollbar-thumb
+    {
+        background-color: transparent !important;
+    }
+
+
+    .doctor_info .awards .award
+    {
+        display: inline-block;
+
+        width: 240px;
+        max-width: none;
+        margin: 0;
+
+        vertical-align: top;
+        white-space: normal;
+    }
+
+    .doctor_info .awards .award + .award
+    {
+        margin-top: 0;
+        margin-left: 8px;
+    }
+
+
+
+    /*-------------------
+        Photo gallery
+    -------------------*/
+    .photo_gallery .swiper
+    {
+        height: 436px;
+    }
+
+
+    .photo_gallery .item .thumb
+    {
+        background-size: auto 32px;
+    }
+
+
+
+    /*-------------
+        Doctors
+    -------------*/
+    .doctors .row
+    {
+        margin-bottom: -12px;
+        margin-left: -12px;
+    }
+
+    .doctors .row > *
+    {
+        width: calc(50% - 12px);
+        margin-bottom: 12px;
+        margin-left: 12px;
+    }
+
+
+    .doctors .doctor
+    {
+        padding: 24px;
+
+        border-radius: 24px;
+    }
+
+
+
+    /*------------------
+        Action block
+    ------------------*/
+    .action_block .data
+    {
+        width: 531px;
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 24px 24px 216px;
+    }
+
+
+    .action_block .title
+    {
+        font-size: 23px;
+
+        margin-bottom: 8px;
+    }
+
+
+    .action_block .img,
+    .action_block .img.left
+    {
+        right: 0;
+        left: 0;
+
+        float: none;
+
+        margin: auto;
+    }
+
+
+
+    /*-----------------
+        Clinic info
+    -----------------*/
+    .clinic_info .map
+    {
+        height: 440px;
+        margin-bottom: 16px;
+        padding: 0;
+    }
+
+
+    .clinic_info .mob_btn
+    {
+        display: block;
+    }
+
+
+    .clinic_info .order_form
+    {
+        display: none;
+    }
+
+
+    .clinic_info .data
+    {
+        width: 531px;
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 24px;
+
+        border-radius: 24px;
+    }
+
+
+    .clinic_info .data .row
+    {
+        margin-bottom: -20px;
+        margin-left: 0;
+    }
+
+    .clinic_info .data > .row > *
+    {
+        width: 100%;
+        margin-bottom: 20px;
+        margin-left: 0;
+    }
+
+
+    .clinic_info .item > .icon + *
+    {
+        margin: 0;
+    }
+
+
+
+    /*--------------
+        Services
+    --------------*/
+    .services .row
+    {
+        margin-bottom: -12px;
+        margin-left: -12px;
+    }
+
+    .services .row > *
+    {
+        width: calc(50% - 12px);
+        margin-bottom: 12px;
+        margin-left: 12px;
+    }
+
+
+    .services .service .name
+    {
+        width: 186px;
+    }
+
+
+    .services .service .thumb
+    {
+        right: -24px;
+
+        width: 264px;
+    }
+
+
+
+    /*-----------------
+        Only method
+    -----------------*/
+    .only_method .data
+    {
+        padding: 0;
+    }
+
+
+    .only_method .title
+    {
+        font-size: 21px;
+    }
+
+
+
+    /*-------------------------
+        Phacoemulsification
+    -------------------------*/
+    .phacoemulsification .row
+    {
+        margin-left: 0;
+    }
+
+    .phacoemulsification .row > *,
+    .phacoemulsification .row > *.text_block
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+
+    /*----------------
+        Advantages
+    ----------------*/
+    .advantages .row
+    {
+        display: block;
+        overflow: auto;
+
+        width: calc(100% + 48px);
+        margin: 0 -24px;
+        padding: 0 24px;
+
+        white-space: nowrap;
+
+        scrollbar-color: transparent transparent !important;
+        scrollbar-width: thin !important;
+    }
+
+    .advantages .row::-webkit-scrollbar
+    {
+        width: 0 !important;
+        height: 0 !important;
+
+        background-color: transparent !important;
+    }
+
+    .advantages .row::-webkit-scrollbar-thumb
+    {
+        background-color: transparent !important;
+    }
+
+
+    .advantages .row > *
+    {
+        display: inline-block;
+
+        width: 350px;
+        max-width: none;
+        margin: 0;
+
+        vertical-align: top;
+        white-space: normal;
+    }
+
+    .advantages .row > * + *
+    {
+        margin-left: 12px;
+    }
+
+
+    .advantages .item
+    {
+        padding: 24px;
+    }
+
+
+
+    /*-----------
+        Cases
+    -----------*/
+    .cases .case
+    {
+        padding: 24px;
+
+        border-radius: 24px;
+    }
+
+
+    .cases .case .data
+    {
+        width: 100%;
+    }
+
+    .cases .case .title
+    {
+        font-size: 20px;
+    }
+
+
+    .cases .case .images
+    {
+        display: flex;
+
+        width: calc(100% + 8px);
+        margin-top: 20px;
+        margin-bottom: -8px;
+        margin-left: -8px;
+        padding-right: 0;
+
+        justify-content: flex-start;
+        align-items: flex-start;
+        align-content: flex-start;
+        flex-wrap: wrap;
+    }
+
+
+    .cases .case .images a
+    {
+        width: 100px;
+        margin-bottom: 8px;
+        margin-left: 8px;
+    }
+
+    .cases .case .images a + a
+    {
+        margin-top: 0;
+    }
+
+
+    .cases .case .images .thumb
+    {
+        border-radius: 20px;
+    }
+
+
+    .cases .swiper-button-next,
+    .cases .swiper-button-prev
+    {
+        display: none !important;
+    }
+
+
+
+    /*-----------
+        Steps
+    -----------*/
+    .steps .item
+    {
+        padding: 24px;
+
+        border-radius: 24px;
+    }
+
+
+    .steps .item .icon + *
+    {
+        padding-right: 0;
+    }
+
+
+
+    /*----------------
+        Confidence
+    ----------------*/
+    .confidence .data
+    {
+        width: 531px;
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 24px;
+
+        border-radius: 24px;
+    }
+
+
+    .confidence .text
+    {
+        font-size: 20px;
+    }
+
+
+    .confidence .img
+    {
+        position: relative;
+
+        width: 216px;
+        height: 216px;
+        margin: 20px auto 0;
+    }
+
+
+
+    /*----------------
+        Mob. panel
+    ----------------*/
+    .mob_panel
+    {
+        display: flex;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer
+    {
+        padding: 24px 0 84px;
+    }
+
+
+    footer .cont + .cont
+    {
+        margin-top: 40px;
+        padding-top: 11px;
+    }
+
+
+    footer .contacts,
+    footer .links
+    {
+        width: calc(33.333% - 8px);
+    }
+
+
+    footer .info
+    {
+        display: flex;
+
+        width: 100%;
+        margin-top: 40px;
+
+        justify-content: space-between;
+        align-items: center;
+        align-content: center;
+        flex-wrap: wrap;
+    }
+
+
+
+    footer .info .phone,
+    footer .info .consult_btn
+    {
+        margin: 0;
+    }
+
+
+
+    footer .socials
+    {
+        width: calc(50% - 6px);
+        margin-top: 40px;
+
+        order: 3;
+    }
+
+
+
+    footer .logo
+    {
+        width: calc(50% - 6px);
+        margin-top: 40px;
+
+        order: 4;
+    }
+
+    footer .logo img
+    {
+        height: 40px;
+        margin-left: auto;
+    }
+
+
+    footer .privacy_policy_link,
+    footer .copyright
+    {
+        width: 100%;
+        margin-top: 8px;
+        margin-left: auto;
+
+        text-align: right;
+    }
+
+    footer .privacy_policy_link
+    {
+        margin-top: 12px;
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+    .modal
+    {
+        width: 531px;
+        padding: 40px 24px 24px;
+
+        border-radius: 24px;
+    }
+
+
+    .modal_title
+    {
+        font-size: 23px;
+    }
+
+
+    #consultation_modal .price
+    {
+        width: 100%;
+        margin-bottom: 12px;
+
+        text-align: center;
+
+        justify-content: center;
+    }
+
+    #consultation_modal .price
+    {
+        font-size: 32px;
+    }
+
+
+    #consultation_modal .form .submit_btn
+    {
+        width: 100%;
+    }
+}

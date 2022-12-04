@@ -1,0 +1,1013 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+		<!-- Адаптирование страницы для мобильных устройств -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+		<!-- Запрет распознования номера телефона -->
+		<meta name="format-detection" content="telephone=no">
+		<meta name="SKYPE_TOOLBAR" content ="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
+
+		<!-- Заголовок страницы -->
+		<title>Заголовок страницы</title>
+
+		<!-- Данное значение часто используют(использовали) поисковые системы -->
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+
+		<!-- Изменение цвета панели моб. браузера -->
+		<meta name="msapplication-TileColor" content="#2C69A3">
+		<meta name="theme-color" content="#2C69A3">
+
+		<!-- Подключение файлов стилей -->
+		<link rel="stylesheet" href="css/swiper-bundle.min.css" async>
+		<link rel="stylesheet" href="css/swiper.css" async>
+		<link rel="stylesheet" href="css/fancybox.css" async>
+		<link rel="stylesheet" href="css/styles.css" async>
+
+		<link rel="stylesheet" href="css/response_1279.css" media="print, (max-width: 1279px)" async>
+		<link rel="stylesheet" href="css/response_1023.css" media="print, (max-width: 1023px)" async>
+		<link rel="stylesheet" href="css/response_767.css" media="print, (max-width: 767px)" async>
+		<link rel="stylesheet" href="css/response_479.css" media="(max-width: 479px)" async>
+	</head>
+
+	<body>
+		<div class="wrap">
+			<div class="main">
+				<header>
+					<div class="info">
+						<div class="cont row">
+							<a href="/" class="logo">
+								<img src="images/logo.svg" alt="">
+							</a>
+
+							<div class="time">На связи с 9 до 21<br> ежедневно</div>
+
+							<div class="location modal_cont">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_location"></use></svg>
+
+								<button class="btn mini_modal_btn" data-modal-id="#location_modal">
+									<span>Москва</span>
+									<svg class="arr"><use xlink:href="images/sprite.svg#ic_arr_ver"></use></svg>
+								</button>
+
+								<div class="mini_modal" id="location_modal">
+									<div class="exp">Выберите город, в котором вы могли бы посетить клинику</div>
+
+									<div><button class="btn active">
+										<span>Москва</span>
+										<svg class="check"><use xlink:href="images/sprite.svg#ic_check"></use></svg>
+									</button></div>
+
+									<div><button class="btn">
+										<span>Санкт-Петербург</span>
+										<svg class="check"><use xlink:href="images/sprite.svg#ic_check"></use></svg>
+									</button></div>
+
+									<div><button class="btn">
+										<span>Екатеринбург</span>
+										<svg class="check"><use xlink:href="images/sprite.svg#ic_check"></use></svg>
+									</button></div>
+
+									<div><button class="btn">
+										<span>Пермь</span>
+										<svg class="check"><use xlink:href="images/sprite.svg#ic_check"></use></svg>
+									</button></div>
+								</div>
+
+								<div class="exp">Санкт-Петербург, Екатеринбург, Пермь</div>
+							</div>
+
+							<div class="mob_links">
+								<button class="location_btn">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_location"></use></svg>
+								</button>
+
+								<a href="tel:+71234567890" class="phone_link">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_phone"></use></svg>
+								</a>
+							</div>
+
+							<button class="order_btn modal_btn" data-modal="#order_modal">Записаться</button>
+
+							<div class="contacts">
+								<div>
+									<div class="phone">
+										<a href="tel:+71234567890">+7 (123) 456-78-90</a>
+									</div>
+
+									<button class="callback_btn modal_btn" data-modal="#callback_modal">Перезвоните мне</button>
+								</div>
+
+								<div class="messengers">
+									<a href="/" target="_blank" rel="noopener nofollow">
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_whatsapp"></use></svg>
+									</a>
+
+									<a href="/" target="_blank" rel="noopener nofollow">
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_telegram"></use></svg>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+
+					<div class="bottom">
+						<div class="cont row">
+							<nav class="menu row">
+								<div class="menu_item">
+									<a href="/" class="sub_link">
+										<span>Клиники</span>
+										<svg class="arr"><use xlink:href="images/sprite.svg#ic_arr_ver"></use></svg>
+									</a>
+
+									<div class="sub_menu">
+										<div><a href="/">Москва</a></div>
+										<div><a href="/">Санкт-Петербург</a></div>
+										<div><a href="/">Екатеринбург</a></div>
+										<div><a href="/">Пермь</a></div>
+									</div>
+								</div>
+
+								<div class="menu_item">
+									<a href="/">Врачи</a>
+								</div>
+
+								<div class="menu_item">
+									<a href="/">Услуги</a>
+								</div>
+
+								<div class="menu_item">
+									<a href="/">Цены</a>
+								</div>
+
+								<div class="menu_item">
+									<a href="/" class="sub_link">
+										<span>Владельцам</span>
+										<svg class="arr"><use xlink:href="images/sprite.svg#ic_arr_ver"></use></svg>
+									</a>
+
+									<div class="sub_menu">
+										<div><a href="/">Статьи</a></div>
+										<div><a href="/">Видео</a></div>
+										<div><a href="/">Онлайн консультация</a></div>
+										<div><a href="/">Вызов на дом</a></div>
+									</div>
+								</div>
+
+								<div class="menu_item">
+									<a href="/" class="sub_link active">
+										<span>Специалистам</span>
+										<svg class="arr"><use xlink:href="images/sprite.svg#ic_arr_ver"></use></svg>
+									</a>
+
+									<div class="sub_menu">
+										<div><a href="/">Статьи</a></div>
+										<div><a href="/">Направление</a></div>
+										<div><a href="/">Консультация</a></div>
+										<div><a href="/">Стажировка</a></div>
+										<div><a href="/">Вакансии</a></div>
+										<div><a href="/">График обучения</a></div>
+									</div>
+								</div>
+
+								<div class="menu_item">
+									<a href="/">Отзывы</a>
+								</div>
+
+								<div class="menu_item">
+									<a href="/">Контакты</a>
+								</div>
+							</nav>
+
+							<div class="search modal_cont">
+								<button class="btn mini_modal_btn" data-modal-id="#search_modal">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_search"></use></svg>
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_close"></use></svg>
+								</button>
+
+								<div class="mini_modal" id="search_modal">
+									<form action="" class="form">
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_search"></use></svg>
+										<input type="text" name="" value="" class="input" placeholder="поиск">
+									</form>
+
+									<div class="tips">
+										<div class="data">
+											<!-- <div class="popular">
+												<div class="title">Популярное</div>
+
+												<div class="items">
+													<div><a href="/">
+														<span>Лечение катаракты у собак и кошек</span>
+														<svg class="icon"><use xlink:href="images/sprite.svg#ic_search"></use></svg>
+													</a></div>
+
+													<div><a href="/">
+														<span>Блефаропластика для собак и кошек</span>
+														<svg class="icon"><use xlink:href="images/sprite.svg#ic_search"></use></svg>
+													</a></div>
+
+													<div><a href="/">
+														<span>Удаление глаза у собак и кошек</span>
+														<svg class="icon"><use xlink:href="images/sprite.svg#ic_search"></use></svg>
+													</a></div>
+
+													<div><a href="/">
+														<span>Исследование фотохроматических рефлексов</span>
+														<svg class="icon"><use xlink:href="images/sprite.svg#ic_search"></use></svg>
+													</a></div>
+
+													<div><a href="/">
+														<span>Флюоресцеиновый тест</span>
+														<svg class="icon"><use xlink:href="images/sprite.svg#ic_search"></use></svg>
+													</a></div>
+												</div>
+											</div> -->
+
+											<div class="result">
+												<div class="btns">
+													<button class="btn active" data-filter="*">Все</button>
+													<button class="btn" data-filter=".filter_services">Услуги</button>
+													<button class="btn" data-filter=".filter_articles">Статьи</button>
+													<button class="btn" data-filter=".filter_doctors">Врачи</button>
+												</div>
+
+												<div class="section filter_services">
+													<div class="title">Услуги</div>
+
+													<div class="items">
+														<div><a href="/">
+															<div class="name">Лечение катаракты у собак и кошек</div>
+
+															<div class="desc">...удаётся избежать многих последствий данного заболевания (катаракта, ухудшение работы почек и др.). Однако следует настро...</div>
+
+															<svg class="arr"><use xlink:href="images/sprite.svg#ic_arr_hor"></use></svg>
+														</a></div>
+													</div>
+												</div>
+
+												<div class="section filter_articles">
+													<div class="title">Статьи</div>
+
+													<div class="items">
+														<div><a href="/">
+															<div class="name">Ветеринарная офтальмология</div>
+
+															<div class="desc">...удаётся избежать многих последствий данного заболевания (катаракта, ухудшение работы почек и др.). Однако следует настро...</div>
+
+															<svg class="arr"><use xlink:href="images/sprite.svg#ic_arr_hor"></use></svg>
+														</a></div>
+
+														<div><a href="/">
+															<div class="name">Сахарный диабет у собаки</div>
+
+															<div class="desc">...удаётся избежать многих последствий данного заболевания (катаракта, ухудшение работы почек и др.). Однако следует настро...</div>
+
+															<svg class="arr"><use xlink:href="images/sprite.svg#ic_arr_hor"></use></svg>
+														</a></div>
+													</div>
+												</div>
+
+												<div class="section filter_doctors">
+													<div class="title">Врачи</div>
+
+													<div class="items">
+														<div><a href="/">
+															<div class="name">Константиновский Александр Андреевич</div>
+
+															<div class="desc">...удаётся избежать многих последствий данного заболевания (катаракта, ухудшение работы почек и др.). Однако следует настро...</div>
+
+															<svg class="arr"><use xlink:href="images/sprite.svg#ic_arr_hor"></use></svg>
+														</a></div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</header>
+
+
+				<section class="page_head with_image block">
+					<div class="cont row">
+						<div class="data">
+							<div class="breadcrumbs">
+								<a href="/">Главная</a> <span class="sep">/</span>
+								<a href="/">Специалистам</a> <span class="sep">/</span>
+								<span class="current">Персональный коучинг</span>
+							</div>
+
+							<h1 class="page_title">Программа персонального коучинга по ветеринарной офтальмологии</h1>
+						</div>
+
+						<button class="order_btn modal_btn" data-modal="#internship_modal">Записаться на стажировку</button>
+					</div>
+
+					<img data-src="images/tmp/page_head_img.jpg" alt="" class="bg lazyload">
+				</section>
+
+
+				<section class="about_us block">
+					<div class="cont">
+						<div class="title">От единственной в России сети референтных клиник РЕКОМ под руководством главного офтальмолога:</div>
+
+						<div class="doctor">
+							<div class="post">Главный врач</div>
+
+							<div class="name">Константиновский<br> Александр Андреевич</div>
+
+							<div class="text">Лауреат Диплома Министерства образования РФ, Лауреат высшей награды Ассоциации Практикующих Ветеринарных Врачей России «Золотой скальпель», лауреат премии «Золотой стетоскоп», лучший ветеринарный врач РФ (рейтинг Best Russian Dog), Человек года.</div>
+
+							<div class="photo small">
+								<img data-src="images/tmp/doctor_photo2.png" alt="" class="lazyload">
+							</div>
+						</div>
+
+						<div class="awards">
+							<div class="award">
+								<div>За вклад в развитие ветеринарной медицины</div>
+							</div>
+
+							<div class="award">
+								<div>Лучший<br> ветеринарный врач РФ</div>
+							</div>
+
+							<div class="award">
+								<div>Человек года <small>Ассоциации Практикующих Ветеринарных Врачей России</small></div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+
+				<section class="photos block">
+					<div class="cont">
+						<div class="block_head">
+							<div class="title">Фото</div>
+						</div>
+
+						<div class="swiper">
+							<div class="swiper-wrapper">
+								<div class="swiper-slide">
+									<a href="images/tmp/photo_gallery_thumb1.jpg" class="item fancy_img" data-fancybox="photo_gallery">
+										<div class="thumb">
+											<img data-src="images/tmp/photo_gallery_thumb1.jpg" alt="" class="swiper-lazy">
+										</div>
+									</a>
+								</div>
+
+								<div class="swiper-slide">
+									<a href="images/tmp/photo_gallery_thumb1.jpg" class="item fancy_img" data-fancybox="photo_gallery">
+										<div class="thumb">
+											<img data-src="images/tmp/photo_gallery_thumb1.jpg" alt="" class="swiper-lazy">
+										</div>
+									</a>
+								</div>
+
+								<div class="swiper-slide">
+									<a href="images/tmp/photo_gallery_thumb1.jpg" class="item fancy_img" data-fancybox="photo_gallery">
+										<div class="thumb">
+											<img data-src="images/tmp/photo_gallery_thumb1.jpg" alt="" class="swiper-lazy">
+										</div>
+									</a>
+								</div>
+
+								<div class="swiper-slide">
+									<a href="images/tmp/photo_gallery_thumb1.jpg" class="item fancy_img" data-fancybox="photo_gallery">
+										<div class="thumb">
+											<img data-src="images/tmp/photo_gallery_thumb1.jpg" alt="" class="swiper-lazy">
+										</div>
+									</a>
+								</div>
+
+								<div class="swiper-slide">
+									<a href="images/tmp/photo_gallery_thumb1.jpg" class="item fancy_img" data-fancybox="photo_gallery">
+										<div class="thumb">
+											<img data-src="images/tmp/photo_gallery_thumb1.jpg" alt="" class="swiper-lazy">
+										</div>
+									</a>
+								</div>
+							</div>
+
+							<div class="swiper-button-prev">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_arr_hor"></use></svg>
+							</div>
+
+							<div class="swiper-button-next">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_arr_hor"></use></svg>
+							</div>
+						</div>
+					</div>
+				</section>
+
+
+				<section class="internship block">
+					<div class="cont">
+						<div class="data">
+							<div class="title">Индивидуальный коучинг по программе РЕКОМ – это наиболее эффективный метод погружения в специализацию и получения, как теоретических, так и практических знаний и навыков в ходе стандартного интенсивного рабочего дня в клинике. Стажер с первой минуты нахождения рядом с куратором в максимально короткие сроки осваивает все то, на что уходят годы при посещениях конференций и онлайн образования.</div>
+
+							<div class="cities">
+								<div class="label">Отделения для прохождения стажировки:</div>
+
+								<div class="row">
+									<div>
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_eye"></use></svg>
+										<span>Москва</span>
+									</div>
+
+									<div>
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_eye"></use></svg>
+										<span>Санкт-Петербург</span>
+									</div>
+
+									<div>
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_eye"></use></svg>
+										<span>Екатеринбург</span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+
+				<section class="why_we block">
+					<div class="cont">
+						<div class="block_head">
+							<div class="title">Почему мы?</div>
+						</div>
+
+						<div class="row">
+							<div class="item">
+								<div class="icon">
+									<img data-src="images/ic_why_we1.png" alt="" class="lazyload">
+								</div>
+
+								<div class="name">У нас лучшее офтальмологическое оборудование в России</div>
+							</div>
+
+							<div class="item">
+								<div class="icon">
+									<img data-src="images/ic_why_we2.png" alt="" class="lazyload">
+								</div>
+
+								<div class="name">Мы лечим весь спектр офтальмологических заболеваний у животных</div>
+							</div>
+
+							<div class="item">
+								<div class="icon">
+									<img data-src="images/ic_why_we3.png" alt="" class="lazyload">
+								</div>
+
+								<div class="name">Мы принимаем всех животных, от самых маленьких и больших, до экзотических и сверхредких</div>
+							</div>
+
+							<div class="item">
+								<div class="icon">
+									<img data-src="images/ic_why_we4.png" alt="" class="lazyload">
+								</div>
+
+								<div class="name">Мы используем американские стандарты и протоколы, которые являются самыми передовыми на сегодняшний день</div>
+							</div>
+						</div>
+
+						<button class="order_btn modal_btn"data-modal="#internship_modal">Записаться на стажировку</button>
+					</div>
+				</section>
+			</div>
+
+
+			<footer>
+				<div class="cont row">
+					<div class="contacts">
+						<div class="title">Офтальмологии</div>
+
+						<div class="item">
+							<div class="city">Москва</div>
+
+							<div class="phone">
+								<a href="tel:+71234567890">+7 (123) 456-78-90</a>
+							</div>
+						</div>
+
+						<div class="item">
+							<div class="city">Санкт-Петербург</div>
+
+							<div class="phone">
+								<a href="tel:+71234567890">+7 (123) 456-78-90</a>
+							</div>
+						</div>
+
+						<div class="item">
+							<div class="city">Екатеринбург</div>
+
+							<div class="phone">
+								<a href="tel:+71234567890">+7 (123) 456-78-90</a>
+							</div>
+						</div>
+
+						<div class="item">
+							<div class="city">Пермь</div>
+
+							<div class="phone">
+								<a href="tel:+71234567890">+7 (123) 456-78-90</a>
+							</div>
+						</div>
+					</div>
+
+					<div class="links">
+						<div class="title">Владельцам</div>
+
+						<div class="items">
+							<div><a href="/">Статьи</a></div>
+							<div><a href="/">Видео</a></div>
+							<div><a href="/">Онлайн консультация</a></div>
+							<div><a href="/">Вызов на дом</a></div>
+						</div>
+					</div>
+
+					<div class="links">
+						<div class="title">Специалистам</div>
+
+						<div class="items">
+							<div><a href="/">Статьи</a></div>
+							<div><a href="/">Направления</a></div>
+							<div><a href="/">Консультация</a></div>
+							<div><a href="/">Стажировка</a></div>
+							<div><a href="/">Вакансии</a></div>
+							<div><a href="/">График обучения</a></div>
+						</div>
+					</div>
+
+					<div class="info">
+						<div class="logo">
+							<img src="images/logo2.svg" alt="">
+						</div>
+
+						<div class="phone">
+							<a href="tel:+71234567890">+7 (123) 456-78-90</a>
+						</div>
+
+						<button class="consult_btn">
+							<svg class="icon"><use xlink:href="images/sprite.svg#ic_video"></use></svg>
+							<span>Онлайн консультация</span>
+						</button>
+
+						<div class="socials">
+							<a href="/" target="_blank" rel="noopener nofollow">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_vk"></use></svg>
+							</a>
+
+							<a href="/" target="_blank" rel="noopener nofollow">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_youtube"></use></svg>
+							</a>
+
+							<a href="/" target="_blank" rel="noopener nofollow">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_instagram"></use></svg>
+							</a>
+
+							<a href="/" target="_blank" rel="noopener nofollow">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_fb"></use></svg>
+							</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="cont row">
+					<div class="pay">
+						<div><img src="images/ic_pay1.svg" alt=""></div>
+						<div><img src="images/ic_pay2.svg" alt=""></div>
+						<div><img src="images/ic_pay3.svg" alt=""></div>
+						<div><img src="images/ic_pay4.svg" alt=""></div>
+					</div>
+
+					<div class="privacy_policy_link">
+						<a href="/">Политика конфиденциальности</a>
+					</div>
+
+					<div class="copyright">&copy;2022 Ветеринарная офтальмология</div>
+				</div>
+			</footer>
+
+
+			<section class="mob_location">
+				<div class="items">
+					<div><button class="btn active">
+						<span>Москва</span>
+						<svg class="icon"><use xlink:href="images/sprite.svg#ic_check"></use></svg>
+					</button></div>
+
+					<div><button class="btn">
+						<span>Санкт-Петербург</span>
+						<svg class="icon"><use xlink:href="images/sprite.svg#ic_check"></use></svg>
+					</button></div>
+
+					<div><button class="btn">
+						<span>Екатеринбург</span>
+						<svg class="icon"><use xlink:href="images/sprite.svg#ic_check"></use></svg>
+					</button></div>
+
+					<div><button class="btn">
+						<span>Пермь</span>
+						<svg class="icon"><use xlink:href="images/sprite.svg#ic_check"></use></svg>
+					</button></div>
+				</div>
+
+				<button class="order_btn modal_btn" data-modal="#order_modal">Записаться</button>
+			</section>
+
+
+			<section class="mob_menu">
+				<div class="menu">
+					<div class="menu_item">
+						<a href="#" class="sub_link">
+							<span>Клиники</span>
+							<svg class="arr"><use xlink:href="images/sprite.svg#ic_arr_ver"></use></svg>
+						</a>
+
+						<div class="sub_menu">
+							<div><a href="/">Москва</a></div>
+							<div><a href="/">Санкт-Петербург</a></div>
+							<div><a href="/">Екатеринбург</a></div>
+							<div><a href="/">Пермь</a></div>
+						</div>
+					</div>
+
+					<div class="menu_item">
+						<a href="/">Врачи</a>
+					</div>
+
+					<div class="menu_item">
+						<a href="/">Услуги</a>
+					</div>
+
+					<div class="menu_item">
+						<a href="/">Цены</a>
+					</div>
+
+					<div class="menu_item">
+						<a href="#" class="sub_link">
+							<span>Владельцам</span>
+							<svg class="arr"><use xlink:href="images/sprite.svg#ic_arr_ver"></use></svg>
+						</a>
+
+						<div class="sub_menu">
+							<div><a href="/">Статьи</a></div>
+							<div><a href="/">Видео</a></div>
+							<div><a href="/">Онлайн консультация</a></div>
+							<div><a href="/">Вызов на дом</a></div>
+						</div>
+					</div>
+
+					<div class="menu_item">
+						<a href="#" class="sub_link">
+							<span>Специалистам</span>
+							<svg class="arr"><use xlink:href="images/sprite.svg#ic_arr_ver"></use></svg>
+						</a>
+
+						<div class="sub_menu">
+							<div><a href="/">Статьи</a></div>
+							<div><a href="/">Направление</a></div>
+							<div><a href="/">Консультация</a></div>
+							<div><a href="/">Стажировка</a></div>
+							<div><a href="/">Вакансии</a></div>
+							<div><a href="/">График обучения</a></div>
+						</div>
+					</div>
+
+					<div class="menu_item">
+						<a href="/">Отзывы</a>
+					</div>
+
+					<div class="menu_item">
+						<a href="/">Контакты</a>
+					</div>
+				</div>
+
+				<div class="contacts">
+					<div class="phone">
+						<a href="tel:+71234567890">+7 (123) 456-78-90</a>
+					</div>
+
+					<div class="time">На связи с 9 до 21 ежедневно</div>
+
+					<div class="messengers">
+						<a href="/" target="_blank" rel="noopener nofollow">
+							<svg class="icon"><use xlink:href="images/sprite.svg#ic_whatsapp"></use></svg>
+						</a>
+
+						<a href="/" target="_blank" rel="noopener nofollow">
+							<svg class="icon"><use xlink:href="images/sprite.svg#ic_telegram"></use></svg>
+						</a>
+					</div>
+
+					<button class="order_btn modal_btn" data-modal="#order_modal">Записаться</button>
+				</div>
+			</section>
+
+
+			<section class="mob_panel">
+				<div>
+					<button class="search_btn btn">
+						<div class="icon">
+							<svg><use xlink:href="images/sprite.svg#ic_search"></use></svg>
+						</div>
+						<span>Поиск</span>
+					</button>
+				</div>
+
+				<div>
+					<button class="menu_btn btn">
+						<div class="icon">
+							<svg><use xlink:href="images/sprite.svg#ic_menu"></use></svg>
+						</div>
+						<span>Меню</span>
+					</button>
+				</div>
+
+				<div>
+					<a href="/" class="btn">
+						<div class="icon">
+							<svg><use xlink:href="images/sprite.svg#ic_eye"></use></svg>
+						</div>
+						<span>Клиники</span>
+					</a>
+				</div>
+			</section>
+
+
+			<div class="buttonUp">
+				<button class="btn">
+					<svg class="icon"><use xlink:href="images/sprite.svg#ic_arr_ver"></use></svg>
+				</button>
+			</div>
+
+			<div class="overlay"></div>
+		</div>
+
+
+		<div class="supports_error">
+			Ваш браузер устарел рекомендуем обновить его до последней версии<br> или использовать другой более современный.
+		</div>
+
+
+		<section class="modal" id="order_modal">
+			<div class="modal_title">Записаться на прием</div>
+
+			<div class="modal_desc">Заполните форму и мы свяжемся в течение 15 минут</div>
+
+			<div class="city">
+				<div class="label">Ваш город</div>
+
+				<div class="select">
+					<select name="">
+						<option value="1" selected>Москва</option>
+						<option value="2">Москва</option>
+						<option value="3">Москва</option>
+						<option value="4">Москва</option>
+					</select>
+
+					<svg class="arr"><use xlink:href="images/sprite.svg#ic_arr_ver"></use></svg>
+				</div>
+			</div>
+
+			<form action="" class="form">
+				<div class="line">
+					<div class="label">Имя</div>
+
+					<div class="field">
+						<input type="text" name="" value="" class="input">
+					</div>
+				</div>
+
+				<div class="line">
+					<div class="label">Телефон</div>
+
+					<div class="field">
+						<input type="tel" name="" value="" class="input" placeholder="+7">
+					</div>
+				</div>
+
+				<div class="submit">
+					<button type="submit" class="submit_btn">Записаться</button>
+				</div>
+
+				<div class="agree">Отправляя форму, Вы даете согласие на обработку персональных данных</div>
+			</form>
+		</section>
+
+
+		<section class="modal" id="callback_modal">
+			<div class="modal_title">Заказать звонок</div>
+
+			<div class="modal_desc">Заполните форму и мы свяжемся в течение 15 минут</div>
+
+			<div class="city">
+				<div class="label">Ваш город</div>
+
+				<div class="select">
+					<select name="">
+						<option value="1" selected>Москва</option>
+						<option value="2">Москва</option>
+						<option value="3">Москва</option>
+						<option value="4">Москва</option>
+					</select>
+
+					<svg class="arr"><use xlink:href="images/sprite.svg#ic_arr_ver"></use></svg>
+				</div>
+			</div>
+
+			<form action="" class="form">
+				<div class="line">
+					<div class="label">Имя</div>
+
+					<div class="field">
+						<input type="text" name="" value="" class="input">
+					</div>
+				</div>
+
+				<div class="line">
+					<div class="label">Телефон</div>
+
+					<div class="field">
+						<input type="tel" name="" value="" class="input" placeholder="+7">
+					</div>
+				</div>
+
+				<div class="line">
+					<div class="label">Время для звонка</div>
+
+					<div class="field">
+						<input type="text" name="" value="" class="input">
+					</div>
+				</div>
+
+				<div class="submit">
+					<button type="submit" class="submit_btn">Перезвоните мне</button>
+				</div>
+
+				<div class="agree">Отправляя форму, Вы даете согласие на обработку персональных данных</div>
+			</form>
+		</section>
+
+
+		<section class="modal" id="question_modal">
+			<div class="modal_title">Задать вопрос</div>
+
+			<div class="modal_desc">Заполните форму и мы свяжемся в течение 15 минут</div>
+
+			<div class="city">
+				<div class="label">Ваш город</div>
+
+				<div class="select">
+					<select name="">
+						<option value="1" selected>Москва</option>
+						<option value="2">Москва</option>
+						<option value="3">Москва</option>
+						<option value="4">Москва</option>
+					</select>
+
+					<svg class="arr"><use xlink:href="images/sprite.svg#ic_arr_ver"></use></svg>
+				</div>
+			</div>
+
+			<form action="" class="form">
+				<div class="line">
+					<div class="label">Имя</div>
+
+					<div class="field">
+						<input type="text" name="" value="" class="input">
+					</div>
+				</div>
+
+				<div class="line">
+					<div class="label">Телефон</div>
+
+					<div class="field">
+						<input type="tel" name="" value="" class="input" placeholder="+7">
+					</div>
+				</div>
+
+				<div class="line">
+					<div class="label">Эл. почта</div>
+
+					<div class="field">
+						<input type="email" name="" value="" class="input">
+					</div>
+				</div>
+
+				<div class="line">
+					<div class="label">Ваш вопрос</div>
+
+					<div class="field">
+						<textarea name=""></textarea>
+					</div>
+				</div>
+
+				<div class="submit">
+					<button type="submit" class="submit_btn">Отправить</button>
+				</div>
+
+				<div class="agree">Отправляя форму, Вы даете согласие на обработку персональных данных</div>
+			</form>
+		</section>
+
+
+		<section class="modal" id="internship_modal">
+			<div class="modal_title">Запись на стажировку в программу РЕКОМ</div>
+
+			<div class="city">
+				<div class="label">Ваш город</div>
+
+				<div class="select">
+					<select name="">
+						<option value="1" selected>Москва</option>
+						<option value="2">Москва</option>
+						<option value="3">Москва</option>
+						<option value="4">Москва</option>
+					</select>
+
+					<svg class="arr"><use xlink:href="images/sprite.svg#ic_arr_ver"></use></svg>
+				</div>
+			</div>
+
+			<form action="" class="form">
+				<div class="line">
+					<div class="label">Имя</div>
+
+					<div class="field">
+						<input type="text" name="" value="" class="input">
+					</div>
+				</div>
+
+				<div class="line">
+					<div class="label">Эл. почта</div>
+
+					<div class="field">
+						<input type="email" name="" value="" class="input">
+					</div>
+				</div>
+
+				<div class="line">
+					<div class="label">Телефон</div>
+
+					<div class="field">
+						<input type="tel" name="" value="" class="input" placeholder="+7">
+					</div>
+				</div>
+
+				<div class="line">
+					<div class="label">Если Вы практикующий доктор, укажите клинику, в которой работаете</div>
+
+					<div class="field">
+						<input type="text" name="" value="" class="input">
+					</div>
+				</div>
+
+				<div class="line">
+					<div class="label">Для чего Вы хотите пройти стажировку</div>
+
+					<div class="field">
+						<textarea name=""></textarea>
+					</div>
+				</div>
+
+				<div class="line">
+					<div class="label">По каким дням и в какое время Вы можете стажироваться</div>
+
+					<div class="field">
+						<input type="text" name="" value="" class="input">
+					</div>
+				</div>
+
+				<div class="submit">
+					<button type="submit" class="submit_btn">Отправить</button>
+				</div>
+
+				<div class="agree">Отправляя форму, Вы даете согласие на обработку персональных данных</div>
+			</form>
+		</section>
+
+
+		<section class="modal success" id="success_modal">
+			<div class="modal_title">Спасибо! Ожидайте звонка<br> от менеджера</div>
+		</section>
+
+
+		<!-- Подключение javascript файлов -->
+		<script src="js/jquery-3.5.0.min.js"></script>
+		<script src="js/swiper-bundle.min.js"></script>
+		<script src="js/inputmask.min.js"></script>
+		<script src="js/nice-select.js"></script>
+		<script src="js/fancybox.min.js"></script>
+		<script src="js/functions.js"></script>
+		<script src="js/scripts.js"></script>
+	</body>
+</html>

@@ -1,0 +1,1026 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+		<!-- Адаптирование страницы для мобильных устройств -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+		<!-- Запрет распознования номера телефона -->
+		<meta name="format-detection" content="telephone=no">
+		<meta name="SKYPE_TOOLBAR" content ="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
+
+		<!-- Заголовок страницы -->
+		<title>Заголовок страницы</title>
+
+		<!-- Данное значение часто используют(использовали) поисковые системы -->
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+
+		<!-- Изменение цвета панели моб. браузера -->
+		<meta name="msapplication-TileColor" content="#2C69A3">
+		<meta name="theme-color" content="#2C69A3">
+
+		<!-- Подключение файлов стилей -->
+		<link rel="stylesheet" href="css/swiper-bundle.min.css" async>
+		<link rel="stylesheet" href="css/swiper.css" async>
+		<link rel="stylesheet" href="css/fancybox.css" async>
+		<link rel="stylesheet" href="css/styles.css" async>
+
+		<link rel="stylesheet" href="css/response_1279.css" media="print, (max-width: 1279px)" async>
+		<link rel="stylesheet" href="css/response_1023.css" media="print, (max-width: 1023px)" async>
+		<link rel="stylesheet" href="css/response_767.css" media="print, (max-width: 767px)" async>
+		<link rel="stylesheet" href="css/response_479.css" media="(max-width: 479px)" async>
+	</head>
+
+	<body>
+		<div class="wrap">
+			<div class="main">
+				<header>
+					<div class="info">
+						<div class="cont row">
+							<a href="/" class="logo">
+								<img src="images/logo.svg" alt="">
+							</a>
+
+							<div class="time">На связи с 9 до 21<br> ежедневно</div>
+
+							<div class="location modal_cont">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_location"></use></svg>
+
+								<button class="btn mini_modal_btn" data-modal-id="#location_modal">
+									<span>Москва</span>
+									<svg class="arr"><use xlink:href="images/sprite.svg#ic_arr_ver"></use></svg>
+								</button>
+
+								<div class="mini_modal" id="location_modal">
+									<div class="exp">Выберите город, в котором вы могли бы посетить клинику</div>
+
+									<div><button class="btn active">
+										<span>Москва</span>
+										<svg class="check"><use xlink:href="images/sprite.svg#ic_check"></use></svg>
+									</button></div>
+
+									<div><button class="btn">
+										<span>Санкт-Петербург</span>
+										<svg class="check"><use xlink:href="images/sprite.svg#ic_check"></use></svg>
+									</button></div>
+
+									<div><button class="btn">
+										<span>Екатеринбург</span>
+										<svg class="check"><use xlink:href="images/sprite.svg#ic_check"></use></svg>
+									</button></div>
+
+									<div><button class="btn">
+										<span>Пермь</span>
+										<svg class="check"><use xlink:href="images/sprite.svg#ic_check"></use></svg>
+									</button></div>
+								</div>
+
+								<div class="exp">Санкт-Петербург, Екатеринбург, Пермь</div>
+							</div>
+
+							<div class="mob_links">
+								<button class="location_btn">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_location"></use></svg>
+								</button>
+
+								<a href="tel:+71234567890" class="phone_link">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_phone"></use></svg>
+								</a>
+							</div>
+
+							<button class="order_btn modal_btn" data-modal="#order_modal">Записаться</button>
+
+							<div class="contacts">
+								<div>
+									<div class="phone">
+										<a href="tel:+71234567890">+7 (123) 456-78-90</a>
+									</div>
+
+									<button class="callback_btn modal_btn" data-modal="#callback_modal">Перезвоните мне</button>
+								</div>
+
+								<div class="messengers">
+									<a href="/" target="_blank" rel="noopener nofollow">
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_whatsapp"></use></svg>
+									</a>
+
+									<a href="/" target="_blank" rel="noopener nofollow">
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_telegram"></use></svg>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+
+					<div class="bottom">
+						<div class="cont row">
+							<nav class="menu row">
+								<div class="menu_item">
+									<a href="/" class="sub_link">
+										<span>Клиники</span>
+										<svg class="arr"><use xlink:href="images/sprite.svg#ic_arr_ver"></use></svg>
+									</a>
+
+									<div class="sub_menu">
+										<div><a href="/">Москва</a></div>
+										<div><a href="/">Санкт-Петербург</a></div>
+										<div><a href="/">Екатеринбург</a></div>
+										<div><a href="/">Пермь</a></div>
+									</div>
+								</div>
+
+								<div class="menu_item">
+									<a href="/">Врачи</a>
+								</div>
+
+								<div class="menu_item">
+									<a href="/" class="active">Услуги</a>
+								</div>
+
+								<div class="menu_item">
+									<a href="/">Цены</a>
+								</div>
+
+								<div class="menu_item">
+									<a href="/" class="sub_link">
+										<span>Владельцам</span>
+										<svg class="arr"><use xlink:href="images/sprite.svg#ic_arr_ver"></use></svg>
+									</a>
+
+									<div class="sub_menu">
+										<div><a href="/">Статьи</a></div>
+										<div><a href="/">Видео</a></div>
+										<div><a href="/">Онлайн консультация</a></div>
+										<div><a href="/">Вызов на дом</a></div>
+									</div>
+								</div>
+
+								<div class="menu_item">
+									<a href="/" class="sub_link">
+										<span>Специалистам</span>
+										<svg class="arr"><use xlink:href="images/sprite.svg#ic_arr_ver"></use></svg>
+									</a>
+
+									<div class="sub_menu">
+										<div><a href="/">Статьи</a></div>
+										<div><a href="/">Направление</a></div>
+										<div><a href="/">Консультация</a></div>
+										<div><a href="/">Стажировка</a></div>
+										<div><a href="/">Вакансии</a></div>
+										<div><a href="/">График обучения</a></div>
+									</div>
+								</div>
+
+								<div class="menu_item">
+									<a href="/">Отзывы</a>
+								</div>
+
+								<div class="menu_item">
+									<a href="/">Контакты</a>
+								</div>
+							</nav>
+
+							<div class="search modal_cont">
+								<button class="btn mini_modal_btn" data-modal-id="#search_modal">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_search"></use></svg>
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_close"></use></svg>
+								</button>
+
+								<div class="mini_modal" id="search_modal">
+									<form action="" class="form">
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_search"></use></svg>
+										<input type="text" name="" value="" class="input" placeholder="поиск">
+									</form>
+
+									<div class="tips">
+										<div class="data">
+											<!-- <div class="popular">
+												<div class="title">Популярное</div>
+
+												<div class="items">
+													<div><a href="/">
+														<span>Лечение катаракты у собак и кошек</span>
+														<svg class="icon"><use xlink:href="images/sprite.svg#ic_search"></use></svg>
+													</a></div>
+
+													<div><a href="/">
+														<span>Блефаропластика для собак и кошек</span>
+														<svg class="icon"><use xlink:href="images/sprite.svg#ic_search"></use></svg>
+													</a></div>
+
+													<div><a href="/">
+														<span>Удаление глаза у собак и кошек</span>
+														<svg class="icon"><use xlink:href="images/sprite.svg#ic_search"></use></svg>
+													</a></div>
+
+													<div><a href="/">
+														<span>Исследование фотохроматических рефлексов</span>
+														<svg class="icon"><use xlink:href="images/sprite.svg#ic_search"></use></svg>
+													</a></div>
+
+													<div><a href="/">
+														<span>Флюоресцеиновый тест</span>
+														<svg class="icon"><use xlink:href="images/sprite.svg#ic_search"></use></svg>
+													</a></div>
+												</div>
+											</div> -->
+
+											<div class="result">
+												<div class="btns">
+													<button class="btn active" data-filter="*">Все</button>
+													<button class="btn" data-filter=".filter_services">Услуги</button>
+													<button class="btn" data-filter=".filter_articles">Статьи</button>
+													<button class="btn" data-filter=".filter_doctors">Врачи</button>
+												</div>
+
+												<div class="section filter_services">
+													<div class="title">Услуги</div>
+
+													<div class="items">
+														<div><a href="/">
+															<div class="name">Лечение катаракты у собак и кошек</div>
+
+															<div class="desc">...удаётся избежать многих последствий данного заболевания (катаракта, ухудшение работы почек и др.). Однако следует настро...</div>
+
+															<svg class="arr"><use xlink:href="images/sprite.svg#ic_arr_hor"></use></svg>
+														</a></div>
+													</div>
+												</div>
+
+												<div class="section filter_articles">
+													<div class="title">Статьи</div>
+
+													<div class="items">
+														<div><a href="/">
+															<div class="name">Ветеринарная офтальмология</div>
+
+															<div class="desc">...удаётся избежать многих последствий данного заболевания (катаракта, ухудшение работы почек и др.). Однако следует настро...</div>
+
+															<svg class="arr"><use xlink:href="images/sprite.svg#ic_arr_hor"></use></svg>
+														</a></div>
+
+														<div><a href="/">
+															<div class="name">Сахарный диабет у собаки</div>
+
+															<div class="desc">...удаётся избежать многих последствий данного заболевания (катаракта, ухудшение работы почек и др.). Однако следует настро...</div>
+
+															<svg class="arr"><use xlink:href="images/sprite.svg#ic_arr_hor"></use></svg>
+														</a></div>
+													</div>
+												</div>
+
+												<div class="section filter_doctors">
+													<div class="title">Врачи</div>
+
+													<div class="items">
+														<div><a href="/">
+															<div class="name">Константиновский Александр Андреевич</div>
+
+															<div class="desc">...удаётся избежать многих последствий данного заболевания (катаракта, ухудшение работы почек и др.). Однако следует настро...</div>
+
+															<svg class="arr"><use xlink:href="images/sprite.svg#ic_arr_hor"></use></svg>
+														</a></div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</header>
+
+
+				<section class="page_head">
+					<div class="cont">
+						<div class="breadcrumbs">
+							<a href="/">Главная</a> <span class="sep">/</span>
+							<a href="/">Услуги</a> <span class="sep">/</span>
+							<span class="current">Блефаропластика</span>
+						</div>
+
+						<h1 class="page_title">Блефаропластика у собак и кошек</h1>
+					</div>
+				</section>
+
+
+				<section class="content_flex block">
+					<div class="cont row">
+						<section class="content mob_last">
+							<div class="text_block default mini">
+								<h2>Блефаропластика по стадесу</h2>
+
+								<figure class="left">
+									<img data-src="images/tmp/service_text_img.jpg" alt="" class="lazyload">
+
+									<figcaption>Блефаропластика у собак и кошек</figcaption>
+								</figure>
+
+								<p>Для коррекции макроблефарона (слишком длинной глазной щели) и выворота нижних век мы чаще всего используем блефаропластику по Кунту-Шимановскому.</p>
+
+								<p>Чаще других в проведении такой операций нуждаются собаки гигантских пород: среднеазиатская овчарка, бордосский дог, бульмастиф, зеннехунд, ньюфаундленд немецкий дог и другие. При этом ни макроблефарон, ни выворот нижних век почти не встречаются у кошек.</p>
+								<div class="clear"></div>
+
+								<p>Блефаропластика по Кунту-Шимановскому – это довольно сложная блефаропластика, требующая от хирурга опыта выполнения таких операций. Как и все блефаропластики, операцию проводят с использованием оптики: бинокулярной лупы или операционного микроскопа. Суть метода сводиться к тому, что хирург несколько уменьшает длину нижнего века и специальным образом фиксирует наружний угол глаза, таким образом, чтобы несколько «подтянуть» нижнее веко.</p>
+
+								<p>Операция длится около 40 минут на один глаз. Разрез зашивается в 2 этажа: внутренний шов накладывается из рассасывающегося шовного материала (его не нужно снимать), а внешний из нерассасывающегося (его нужно снимать на 10-14 день после операции). Толщина обоих нитей немногим толще человеческого волоса.</p>
+
+								<p>Перед операцией мы широко побреем нижние веко, часть верхнего века и весь наружный угол глаза. После операции Ваш питомец должен носить защитный воротник для того, чтобы минимизировать возможность самотравмирования шва и расчесывания побритой области. Для лучшего заживления мы рекомендуем обрабатывать швы, размачивать и убирать корочки с них при помощи марлевой салфетки и 0,05% раствора хлоргексидина. При полной сохранности швов косметический результат будет отличным, а тоненький шрам полностью скроется за отросшей через короткое время шерстью.</p>
+
+								<h2>Блефаропластика по стадесу</h2>
+
+								<figure class="left">
+									<img data-src="images/tmp/service_text_img.jpg" alt="" class="lazyload">
+
+									<figcaption>Блефаропластика у собак и кошек</figcaption>
+								</figure>
+
+								<p>Блефаропластика по Стадесу используется для коррекции заворота верхних век у собак породы шарпей, реже чау-чау. Данная операция проводится у собак старше 5-6 месячного возраста.</p>
+
+								<p>Эта несложная операция в хирургическом отношении выглядит очень страшно для владельцев. Суть пластики заключается в том, что на верхнем веке выполняется широкий полулунный разрез и иссекается кожный лоскут в пределах него. Затем образовавшийся дефект ушивается лишь частично и над ребром века остается незашитый участок раны. В дальнейшем этот участок заживает по</p>
+								<div class="clear"></div>
+
+								<p>и над ребром века остается незашитый участок раны. В дальнейшем этот участок заживает по вторичному натяжению, формируется выраженный рубец, который по мере заживления поднимает верхнее веко.</p>
+
+								<p>Текст...</p>
+							</div>
+						</section>
+
+
+						<aside>
+							<form action="" class="order_form form">
+								<div class="title">Записаться на прием</div>
+
+								<div class="line">
+									<div class="label">Имя</div>
+
+									<div class="field">
+										<input type="text" name="" value="" class="input">
+									</div>
+								</div>
+
+								<div class="line">
+									<div class="label">Телефон</div>
+
+									<div class="field">
+										<input type="tel" name="" value="" class="input" placeholder="+7">
+									</div>
+								</div>
+
+								<div class="submit">
+									<button type="submit" class="submit_btn">Записаться</button>
+								</div>
+
+								<div class="agree">Отправляя форму, Вы даете согласие на обработку персональных данных</div>
+
+								<img data-src="images/action_block_img.png" alt="" class="img lazyload">
+							</form>
+
+							<div class="service_info">
+								<div class="price">от <span>900 р.</span></div>
+
+								<div class="links">
+									<div><a href="/" class="active">Блефаропластику по кунту-шимановскому</a></div>
+									<div><a href="/">Блефаропластика по стадесу</a></div>
+								</div>
+							</div>
+						</aside>
+					</div>
+				</section>
+
+
+				<section class="services_info block">
+					<div class="cont">
+						<div class="block_head">
+							<div class="title">Другие услуги</div>
+
+							<div class="all_link">
+								<a href="/">
+									<span>К услугам</span>
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_arr_hor"></use></svg>
+								</a>
+							</div>
+						</div>
+
+						<div class="swiper">
+							<div class="swiper-wrapper">
+								<div class="swiper-slide">
+									<div class="service">
+										<a href="/" class="thumb">
+											<!-- <img data-src="images/tmp/service_thumb.jpg" alt="" class="lazyload"> -->
+										</a>
+
+										<div>
+											<div class="name">Электроретинография (ЭРГ)</div>
+
+											<div class="price">от 900 р.</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="swiper-slide">
+									<div class="service">
+										<a href="/" class="thumb">
+											<!-- <img data-src="images/tmp/service_thumb.jpg" alt="" class="lazyload"> -->
+										</a>
+
+										<div>
+											<div class="name">Исследование фотохроматических рефлексов</div>
+
+											<div class="price">от 900 р.</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="swiper-slide">
+									<div class="service">
+										<a href="/" class="thumb">
+											<!-- <img data-src="images/tmp/service_thumb.jpg" alt="" class="lazyload"> -->
+										</a>
+
+										<div>
+											<div class="name">Электроретинография (ЭРГ)</div>
+
+											<div class="price">от 900 р.</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="swiper-slide">
+									<div class="service">
+										<a href="/" class="thumb">
+											<!-- <img data-src="images/tmp/service_thumb.jpg" alt="" class="lazyload"> -->
+										</a>
+
+										<div>
+											<div class="name">Исследование фотохроматических рефлексов</div>
+
+											<div class="price">от 900 р.</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="swiper-slide">
+									<div class="service">
+										<a href="/" class="thumb">
+											<!-- <img data-src="images/tmp/service_thumb.jpg" alt="" class="lazyload"> -->
+										</a>
+
+										<div>
+											<div class="name">Электроретинография (ЭРГ)</div>
+
+											<div class="price">от 900 р.</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="swiper-slide">
+									<div class="service">
+										<a href="/" class="thumb">
+											<!-- <img data-src="images/tmp/service_thumb.jpg" alt="" class="lazyload"> -->
+										</a>
+
+										<div>
+											<div class="name">Исследование фотохроматических рефлексов</div>
+
+											<div class="price">от 900 р.</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="swiper-button-prev">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_arr_hor"></use></svg>
+							</div>
+
+							<div class="swiper-button-next">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_arr_hor"></use></svg>
+							</div>
+						</div>
+					</div>
+				</section>
+
+
+				<section class="block tablet_hide">
+					<div class="cont">
+						<div class="text_block small">
+							<div class="cols">
+								<div class="col">
+									<h4>Текстовый блок</h4>
+
+									<p>Непосредственно перед применением вскрывают один пакет-саше и достают пипетку. Для открытия пипетку следует удерживать у основания или за верхнюю часть ниже колпачка в вертикальном положении (наконечником вверх). Откручивающийся колпачок поворачивают в направлении или против часовой стрелки на один полный оборот. Колпачок остается на пипетке - его невозможно удалить полностью. Пипетка является открытой и готова к применению, когда ощущается щелчок от разлома уплотнения.</p>
+								</div>
+
+								<div class="col">
+									<h4>Текстовый блок</h4>
+
+									<p>Непосредственно перед применением вскрывают один пакет-саше и достают пипетку. Для открытия пипетку следует удерживать у основания или за верхнюю часть ниже колпачка в вертикальном положении (наконечником вверх). Откручивающийся колпачок поворачивают в направлении или против часовой стрелки на один полный оборот. Колпачок остается на пипетке - его невозможно удалить полностью. Пипетка является открытой и готова к применению, когда ощущается щелчок от разлома уплотнения.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+			</div>
+
+
+			<footer>
+				<div class="cont row">
+					<div class="contacts">
+						<div class="title">Офтальмологии</div>
+
+						<div class="item">
+							<div class="city">Москва</div>
+
+							<div class="phone">
+								<a href="tel:+71234567890">+7 (123) 456-78-90</a>
+							</div>
+						</div>
+
+						<div class="item">
+							<div class="city">Санкт-Петербург</div>
+
+							<div class="phone">
+								<a href="tel:+71234567890">+7 (123) 456-78-90</a>
+							</div>
+						</div>
+
+						<div class="item">
+							<div class="city">Екатеринбург</div>
+
+							<div class="phone">
+								<a href="tel:+71234567890">+7 (123) 456-78-90</a>
+							</div>
+						</div>
+
+						<div class="item">
+							<div class="city">Пермь</div>
+
+							<div class="phone">
+								<a href="tel:+71234567890">+7 (123) 456-78-90</a>
+							</div>
+						</div>
+					</div>
+
+					<div class="links">
+						<div class="title">Владельцам</div>
+
+						<div class="items">
+							<div><a href="/">Статьи</a></div>
+							<div><a href="/">Видео</a></div>
+							<div><a href="/">Онлайн консультация</a></div>
+							<div><a href="/">Вызов на дом</a></div>
+						</div>
+					</div>
+
+					<div class="links">
+						<div class="title">Специалистам</div>
+
+						<div class="items">
+							<div><a href="/">Статьи</a></div>
+							<div><a href="/">Направления</a></div>
+							<div><a href="/">Консультация</a></div>
+							<div><a href="/">Стажировка</a></div>
+							<div><a href="/">Вакансии</a></div>
+							<div><a href="/">График обучения</a></div>
+						</div>
+					</div>
+
+					<div class="info">
+						<div class="logo">
+							<img src="images/logo2.svg" alt="">
+						</div>
+
+						<div class="phone">
+							<a href="tel:+71234567890">+7 (123) 456-78-90</a>
+						</div>
+
+						<button class="consult_btn">
+							<svg class="icon"><use xlink:href="images/sprite.svg#ic_video"></use></svg>
+							<span>Онлайн консультация</span>
+						</button>
+
+						<div class="socials">
+							<a href="/" target="_blank" rel="noopener nofollow">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_vk"></use></svg>
+							</a>
+
+							<a href="/" target="_blank" rel="noopener nofollow">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_youtube"></use></svg>
+							</a>
+
+							<a href="/" target="_blank" rel="noopener nofollow">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_instagram"></use></svg>
+							</a>
+
+							<a href="/" target="_blank" rel="noopener nofollow">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_fb"></use></svg>
+							</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="cont row">
+					<div class="pay">
+						<div><img src="images/ic_pay1.svg" alt=""></div>
+						<div><img src="images/ic_pay2.svg" alt=""></div>
+						<div><img src="images/ic_pay3.svg" alt=""></div>
+						<div><img src="images/ic_pay4.svg" alt=""></div>
+					</div>
+
+					<div class="privacy_policy_link">
+						<a href="/">Политика конфиденциальности</a>
+					</div>
+
+					<div class="copyright">&copy;2022 Ветеринарная офтальмология</div>
+				</div>
+			</footer>
+
+
+			<section class="mob_location">
+				<div class="items">
+					<div><button class="btn active">
+						<span>Москва</span>
+						<svg class="icon"><use xlink:href="images/sprite.svg#ic_check"></use></svg>
+					</button></div>
+
+					<div><button class="btn">
+						<span>Санкт-Петербург</span>
+						<svg class="icon"><use xlink:href="images/sprite.svg#ic_check"></use></svg>
+					</button></div>
+
+					<div><button class="btn">
+						<span>Екатеринбург</span>
+						<svg class="icon"><use xlink:href="images/sprite.svg#ic_check"></use></svg>
+					</button></div>
+
+					<div><button class="btn">
+						<span>Пермь</span>
+						<svg class="icon"><use xlink:href="images/sprite.svg#ic_check"></use></svg>
+					</button></div>
+				</div>
+
+				<button class="order_btn modal_btn" data-modal="#order_modal">Записаться</button>
+			</section>
+
+
+			<section class="mob_menu">
+				<div class="menu">
+					<div class="menu_item">
+						<a href="#" class="sub_link">
+							<span>Клиники</span>
+							<svg class="arr"><use xlink:href="images/sprite.svg#ic_arr_ver"></use></svg>
+						</a>
+
+						<div class="sub_menu">
+							<div><a href="/">Москва</a></div>
+							<div><a href="/">Санкт-Петербург</a></div>
+							<div><a href="/">Екатеринбург</a></div>
+							<div><a href="/">Пермь</a></div>
+						</div>
+					</div>
+
+					<div class="menu_item">
+						<a href="/">Врачи</a>
+					</div>
+
+					<div class="menu_item">
+						<a href="/">Услуги</a>
+					</div>
+
+					<div class="menu_item">
+						<a href="/">Цены</a>
+					</div>
+
+					<div class="menu_item">
+						<a href="#" class="sub_link">
+							<span>Владельцам</span>
+							<svg class="arr"><use xlink:href="images/sprite.svg#ic_arr_ver"></use></svg>
+						</a>
+
+						<div class="sub_menu">
+							<div><a href="/">Статьи</a></div>
+							<div><a href="/">Видео</a></div>
+							<div><a href="/">Онлайн консультация</a></div>
+							<div><a href="/">Вызов на дом</a></div>
+						</div>
+					</div>
+
+					<div class="menu_item">
+						<a href="#" class="sub_link">
+							<span>Специалистам</span>
+							<svg class="arr"><use xlink:href="images/sprite.svg#ic_arr_ver"></use></svg>
+						</a>
+
+						<div class="sub_menu">
+							<div><a href="/">Статьи</a></div>
+							<div><a href="/">Направление</a></div>
+							<div><a href="/">Консультация</a></div>
+							<div><a href="/">Стажировка</a></div>
+							<div><a href="/">Вакансии</a></div>
+							<div><a href="/">График обучения</a></div>
+						</div>
+					</div>
+
+					<div class="menu_item">
+						<a href="/">Отзывы</a>
+					</div>
+
+					<div class="menu_item">
+						<a href="/">Контакты</a>
+					</div>
+				</div>
+
+				<div class="contacts">
+					<div class="phone">
+						<a href="tel:+71234567890">+7 (123) 456-78-90</a>
+					</div>
+
+					<div class="time">На связи с 9 до 21 ежедневно</div>
+
+					<div class="messengers">
+						<a href="/" target="_blank" rel="noopener nofollow">
+							<svg class="icon"><use xlink:href="images/sprite.svg#ic_whatsapp"></use></svg>
+						</a>
+
+						<a href="/" target="_blank" rel="noopener nofollow">
+							<svg class="icon"><use xlink:href="images/sprite.svg#ic_telegram"></use></svg>
+						</a>
+					</div>
+
+					<button class="order_btn modal_btn" data-modal="#order_modal">Записаться</button>
+				</div>
+			</section>
+
+
+			<section class="mob_panel">
+				<div>
+					<button class="search_btn btn">
+						<div class="icon">
+							<svg><use xlink:href="images/sprite.svg#ic_search"></use></svg>
+						</div>
+						<span>Поиск</span>
+					</button>
+				</div>
+
+				<div>
+					<button class="menu_btn btn">
+						<div class="icon">
+							<svg><use xlink:href="images/sprite.svg#ic_menu"></use></svg>
+						</div>
+						<span>Меню</span>
+					</button>
+				</div>
+
+				<div>
+					<a href="/" class="btn">
+						<div class="icon">
+							<svg><use xlink:href="images/sprite.svg#ic_eye"></use></svg>
+						</div>
+						<span>Клиники</span>
+					</a>
+				</div>
+			</section>
+
+
+			<div class="buttonUp">
+				<button class="btn">
+					<svg class="icon"><use xlink:href="images/sprite.svg#ic_arr_ver"></use></svg>
+				</button>
+			</div>
+
+			<div class="overlay"></div>
+		</div>
+
+
+		<div class="supports_error">
+			Ваш браузер устарел рекомендуем обновить его до последней версии<br> или использовать другой более современный.
+		</div>
+
+
+		<section class="modal" id="order_modal">
+			<div class="modal_title">Записаться на прием</div>
+
+			<div class="modal_desc">Заполните форму и мы свяжемся в течение 15 минут</div>
+
+			<div class="city">
+				<div class="label">Ваш город</div>
+
+				<div class="select">
+					<select name="">
+						<option value="1" selected>Москва</option>
+						<option value="2">Москва</option>
+						<option value="3">Москва</option>
+						<option value="4">Москва</option>
+					</select>
+
+					<svg class="arr"><use xlink:href="images/sprite.svg#ic_arr_ver"></use></svg>
+				</div>
+			</div>
+
+			<form action="" class="form">
+				<div class="line">
+					<div class="label">Имя</div>
+
+					<div class="field">
+						<input type="text" name="" value="" class="input">
+					</div>
+				</div>
+
+				<div class="line">
+					<div class="label">Телефон</div>
+
+					<div class="field">
+						<input type="tel" name="" value="" class="input" placeholder="+7">
+					</div>
+				</div>
+
+				<div class="submit">
+					<button type="submit" class="submit_btn">Записаться</button>
+				</div>
+
+				<div class="agree">Отправляя форму, Вы даете согласие на обработку персональных данных</div>
+			</form>
+		</section>
+
+
+		<section class="modal" id="callback_modal">
+			<div class="modal_title">Заказать звонок</div>
+
+			<div class="modal_desc">Заполните форму и мы свяжемся в течение 15 минут</div>
+
+			<div class="city">
+				<div class="label">Ваш город</div>
+
+				<div class="select">
+					<select name="">
+						<option value="1" selected>Москва</option>
+						<option value="2">Москва</option>
+						<option value="3">Москва</option>
+						<option value="4">Москва</option>
+					</select>
+
+					<svg class="arr"><use xlink:href="images/sprite.svg#ic_arr_ver"></use></svg>
+				</div>
+			</div>
+
+			<form action="" class="form">
+				<div class="line">
+					<div class="label">Имя</div>
+
+					<div class="field">
+						<input type="text" name="" value="" class="input">
+					</div>
+				</div>
+
+				<div class="line">
+					<div class="label">Телефон</div>
+
+					<div class="field">
+						<input type="tel" name="" value="" class="input" placeholder="+7">
+					</div>
+				</div>
+
+				<div class="line">
+					<div class="label">Время для звонка</div>
+
+					<div class="field">
+						<input type="text" name="" value="" class="input">
+					</div>
+				</div>
+
+				<div class="submit">
+					<button type="submit" class="submit_btn">Перезвоните мне</button>
+				</div>
+
+				<div class="agree">Отправляя форму, Вы даете согласие на обработку персональных данных</div>
+			</form>
+		</section>
+
+
+		<section class="modal" id="question_modal">
+			<div class="modal_title">Задать вопрос</div>
+
+			<div class="modal_desc">Заполните форму и мы свяжемся в течение 15 минут</div>
+
+			<div class="city">
+				<div class="label">Ваш город</div>
+
+				<div class="select">
+					<select name="">
+						<option value="1" selected>Москва</option>
+						<option value="2">Москва</option>
+						<option value="3">Москва</option>
+						<option value="4">Москва</option>
+					</select>
+
+					<svg class="arr"><use xlink:href="images/sprite.svg#ic_arr_ver"></use></svg>
+				</div>
+			</div>
+
+			<form action="" class="form">
+				<div class="line">
+					<div class="label">Имя</div>
+
+					<div class="field">
+						<input type="text" name="" value="" class="input">
+					</div>
+				</div>
+
+				<div class="line">
+					<div class="label">Телефон</div>
+
+					<div class="field">
+						<input type="tel" name="" value="" class="input" placeholder="+7">
+					</div>
+				</div>
+
+				<div class="line">
+					<div class="label">Эл. почта</div>
+
+					<div class="field">
+						<input type="email" name="" value="" class="input">
+					</div>
+				</div>
+
+				<div class="line">
+					<div class="label">Ваш вопрос</div>
+
+					<div class="field">
+						<textarea name=""></textarea>
+					</div>
+				</div>
+
+				<div class="submit">
+					<button type="submit" class="submit_btn">Отправить</button>
+				</div>
+
+				<div class="agree">Отправляя форму, Вы даете согласие на обработку персональных данных</div>
+			</form>
+		</section>
+
+
+		<section class="modal" id="doctor_order_modal">
+			<div class="modal_title">Выезд офтальмолога на дом</div>
+
+			<div class="modal_desc">Мы перезвоним вам и договоримся о выезде</div>
+
+			<div class="city">
+				<div class="label">Ваш город</div>
+
+				<div class="select">
+					<select name="">
+						<option value="1" selected>Москва</option>
+						<option value="2">Москва</option>
+						<option value="3">Москва</option>
+						<option value="4">Москва</option>
+					</select>
+
+					<svg class="arr"><use xlink:href="images/sprite.svg#ic_arr_ver"></use></svg>
+				</div>
+			</div>
+
+			<form action="" class="form">
+				<div class="line">
+					<div class="label">Имя</div>
+
+					<div class="field">
+						<input type="text" name="" value="" class="input">
+					</div>
+				</div>
+
+				<div class="line">
+					<div class="label">Телефон</div>
+
+					<div class="field">
+						<input type="tel" name="" value="" class="input" placeholder="+7">
+					</div>
+				</div>
+
+				<div class="submit">
+					<button type="submit" class="submit_btn">Отправить</button>
+				</div>
+
+				<div class="agree">Отправляя форму, Вы даете согласие на обработку персональных данных</div>
+			</form>
+		</section>
+
+
+		<section class="modal success" id="success_modal">
+			<div class="modal_title">Спасибо! Ожидайте звонка<br> от менеджера</div>
+		</section>
+
+
+		<!-- Подключение javascript файлов -->
+		<script src="js/jquery-3.5.0.min.js"></script>
+		<script src="js/swiper-bundle.min.js"></script>
+		<script src="js/inputmask.min.js"></script>
+		<script src="js/nice-select.js"></script>
+		<script src="js/fancybox.min.js"></script>
+		<script src="js/functions.js"></script>
+		<script src="js/scripts.js"></script>
+	</body>
+</html>

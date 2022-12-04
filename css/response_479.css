@@ -1,0 +1,142 @@
+@media (max-width: 479px)
+{
+    /*--------------
+        Fancybox
+    --------------*/
+    .fancybox__slide
+    {
+        padding: 16px;
+    }
+
+
+
+    /*---------------
+        Page head
+    ---------------*/
+    .page_head .service_price,
+    .page_head .paid_consult
+    {
+        width: 100%;
+    }
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+    .form .rating
+    {
+        display: block;
+    }
+
+    .form .rating .label
+    {
+        margin-right: 0;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section .image
+    {
+        right: -72px;
+
+        width: 320px;
+    }
+
+
+
+    /*------------
+        Why we
+    ------------*/
+    .why_we .row > *
+    {
+        width: 330px;
+    }
+
+    .why_we .row > * + *
+    {
+        margin-left: 8px;
+    }
+
+
+
+    /*-------------------
+        Services info
+    -------------------*/
+    .services_info .service .thumb
+    {
+        margin-bottom: 8px;
+        padding-bottom: 66.666%;
+
+        border-radius: 24px;
+    }
+
+
+    .services_info .service .name
+    {
+        word-wrap: break-word;
+    }
+
+
+
+    /*-------------------
+        Photo gallery
+    -------------------*/
+    .photo_gallery .swiper,
+    .photo_gallery .swiper-slide,
+    .photo_gallery .item .thumb
+    {
+        height: 232px;
+    }
+
+
+
+    /*-------------
+        Doctors
+    -------------*/
+    .doctors .row
+    {
+        margin-left: 0;
+    }
+
+    .doctors .row > *
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+
+    /*-----------------
+        Clinic info
+    -----------------*/
+    .clinic_info .item .time .exp
+    {
+        width: 100%;
+        margin-top: 4px;
+        margin-left: 0;
+    }
+
+
+
+    /*----------------
+        Advantages
+    ----------------*/
+    .advantages .row > *
+    {
+        width: 330px;
+    }
+
+
+
+    /*--------------
+        About us
+    --------------*/
+    .about_us .row > *
+    {
+        width: 330px;
+    }
+}
