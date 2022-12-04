@@ -3141,7 +3141,6 @@ aside .links a.active
 ----------------*/
 .text_block
 {
-    color: #31577c;
     font-size: var(--font_size);
     font-weight: 500;
     line-height: 136%;
@@ -3233,8 +3232,6 @@ aside .links a.active
     font-size: 21px;
     font-weight: 600;
     line-height: 112%;
-
-    margin-bottom: 8px !important;
 
     letter-spacing: -.02em;
 }
@@ -3943,6 +3940,12 @@ aside .links a.active
 /*--------------
     Services
 --------------*/
+.services .block_head .title
+{
+    width: 100%;
+}
+
+
 .services .row
 {
     margin-bottom: -24px;
@@ -4109,7 +4112,7 @@ aside .links a.active
 -------------*/
 .doctors .block_head .title
 {
-    width: calc(100% - 125px);
+    width: calc(100% - 148px);
 }
 
 
