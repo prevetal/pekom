@@ -549,6 +549,58 @@ button
 
 
 
+/*-----------------
+    Online chat
+-----------------*/
+.online_chat
+{
+    position: fixed;
+    z-index: 90;
+    right: 80px;
+    bottom: 24px;
+}
+
+
+.online_chat .btn
+{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 124%;
+
+    display: flex;
+
+    padding: 10px 20px 10px 16px;
+
+    transition: background .2s linear;
+    letter-spacing: -.02em;
+
+    border-radius: 48px;
+    background: #dd752b;
+
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.online_chat .btn .icon
+{
+    display: block;
+
+    width: 24px;
+    height: 24px;
+    margin-right: 6px;
+}
+
+
+.online_chat .btn:hover
+{
+    background: #1e508b;
+}
+
+
+
 /*--------------
     ButtonUp
 --------------*/
@@ -556,8 +608,8 @@ button
 {
     position: fixed;
     z-index: 99;
-    right: 56px;
-    bottom: 56px;
+    right: 24px;
+    bottom: 26px;
 
     display: none;
 }
@@ -7703,16 +7755,23 @@ aside .links a.active
 }
 
 
+.mob_panel > *
+{
+    width: 25%;
+}
+
+
 .mob_panel .btn
 {
     color: #31577c;
     font-size: 10px;
     font-weight: 600;
-    line-height: 124%;
+    line-height: 100%;
 
     display: block;
 
-    padding: 10px;
+    width: 100%;
+    padding: 10px 8px;
 
     text-align: center;
     text-decoration: none;
@@ -7725,7 +7784,7 @@ aside .links a.active
     display: flex;
 
     height: 24px;
-    margin-bottom: 2px;
+    margin-bottom: 5px;
 
     justify-content: center;
     align-items: center;
